@@ -1,0 +1,24 @@
+<idea-plugin>
+  <version>0.1.0</version>
+  <id>com.github.sunznx.idea.emacs.editor</id>
+  <name>Emacs Editor</name>
+  <vendor email="sunznx@gmail.com" url="https://github.com/sunznx/idea-emacs-editor">sunznx</vendor>
+  <description><![CDATA[Emacs-style file finding and editing for IntelliJ IDEA.
+        Features:
+        <ul>
+        <li>C-x C-f find-file with Vertico-style completion</li>
+        <li>Fast file search with fuzzy matching</li>
+        <li>Live preview of file contents</li>
+        </ul>]]></description>
+  <depends>com.intellij.modules.platform</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <applicationService serviceImplementation="com.github.sunznx.idea.emacs.editor.find.DirCache" />
+  </extensions>
+  <actions>
+    <action id="Emacs.FindFile" class="com.github.sunznx.idea.emacs.editor.find.FindFileAction" text="Find File (Emacs)" description="Emacs-style find file with Vertico completion" keymap="$default">
+      <keyboard-shortcut keymap="$default" first-keystroke="ctrl X" />
+      <keyboard-shortcut keymap="$default" first-keystroke="ctrl F" />
+    </action>
+  </actions>
+  <idea-version since-build="233" until-build="241.*" />
+</idea-plugin>

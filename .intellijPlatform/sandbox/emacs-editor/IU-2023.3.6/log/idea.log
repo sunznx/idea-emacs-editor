@@ -1,0 +1,949 @@
+2026-04-05 19:34:36,430 [20886147]   INFO - #c.i.a.d.c.d.SqliteLazyInitializedDatabase - Starting saving database (reason: every 6 min)
+2026-04-05 19:34:36,433 [20886150]   INFO - #c.i.a.d.c.d.SqliteLazyInitializedDatabase - close start
+2026-04-05 19:34:36,435 [20886152]   INFO - #c.i.a.d.c.d.SqliteLazyInitializedDatabase - close end
+2026-04-05 19:34:36,439 [20886156]   INFO - #c.i.a.d.c.d.SqliteLazyInitializedDatabase - Saving completed (reason: every 6 min)
+2026-04-05 19:34:36,970 [20886687]   INFO - #c.i.a.d.c.d.SqliteLazyInitializedDatabase - Database path: /Users/sunx/Library/Application Support/JetBrains/IntelliJ/ae_717bdb4a-a8c2-4a28-a9d6-b24a40a9d15e-233.db
+2026-04-05 19:36:44,102 [21013819]   INFO - #c.i.m.l.c.AIAssistantAllowedLevelService - Updating AIAssistantKillSwitch level: Agreement
+2026-04-05 19:36:44,102 [21013819]   INFO - #c.i.m.l.c.AIAssistantAllowedLevelService - Updating AIAssistantKillSwitch level: Agreement
+2026-04-05 19:38:50,732 [21140449]   INFO - #c.i.o.p.DumbServiceImpl - enter dumb mode [syncer]
+2026-04-05 19:38:50,770 [21140487]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: (dumb mode task) com.intellij.openapi.roots.impl.PushedFilePropertiesUpdaterImpl$MyDumbModeTask@680eac5e (reason: Push on VFS changes)
+2026-04-05 19:38:50,787 [21140504]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: (dumb mode task) com.intellij.openapi.roots.impl.PushedFilePropertiesUpdaterImpl$MyDumbModeTask@680eac5e (reason: Push on VFS changes)
+2026-04-05 19:38:50,787 [21140504]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: (dumb mode task) com.intellij.util.indexing.UnindexedFilesScanner$2@170b3194
+2026-04-05 19:38:50,788 [21140505]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: (dumb mode task) com.intellij.util.indexing.UnindexedFilesScanner$2@170b3194
+2026-04-05 19:38:50,788 [21140505]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: UnindexedFilesScanner[syncer, 1 iterators]
+2026-04-05 19:38:50,788 [21140505]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: (dumb mode task) UnindexedFilesIndexer[syncer, 0 iterators, reason: On refresh of files in syncer]
+2026-04-05 19:38:50,789 [21140506]   INFO - #c.i.u.i.c.IndexUpdateRunner - Using 5 indexing  and 4 writing threads for indexing
+2026-04-05 19:38:50,803 [21140520]   INFO - #c.i.u.i.ProjectChangedFilesScanner - Retrieving changed during indexing files of syncer : 680 to update, calculated in 13ms
+2026-04-05 19:38:50,803 [21140520]   INFO - #c.i.u.i.UnindexedFilesScanner - Started scanning for indexing of syncer. Reason: changes in: "Custom kind roots from entity (extensions, empty)"
+2026-04-05 19:38:50,803 [21140520]   INFO - #c.i.u.i.UnindexedFilesScanner - Performing delayed pushing properties tasks for syncer took 0ms; general responsiveness: ok; EDT responsiveness: ok
+2026-04-05 19:38:50,803 [21140520]   INFO - #c.i.u.i.UnindexedFilesScanner - Scanning of syncer uses 9 scanning threads
+2026-04-05 19:38:50,822 [21140539]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of One-row.sql.groovy by request of indexes: [groovy.cucumber.step->NOT_INDEXED,filetypes->NOT_INDEXED,Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file One-row.sql.groovy with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=53768, fileInfo='One-row.sql.groovy(id=53768)'}] and removers: []; 
+2026-04-05 19:38:50,822 [21140539]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of CSV-Groovy.csv.groovy by request of indexes: [groovy.cucumber.step->NOT_INDEXED,filetypes->NOT_INDEXED,Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file CSV-Groovy.csv.groovy with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=53764, fileInfo='CSV-Groovy.csv.groovy(id=53764)'}] and removers: []; 
+2026-04-05 19:38:50,822 [21140539]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of XML-Groovy.xml.groovy by request of indexes: [groovy.cucumber.step->NOT_INDEXED,filetypes->NOT_INDEXED,Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file XML-Groovy.xml.groovy with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=53770, fileInfo='XML-Groovy.xml.groovy(id=53770)'}] and removers: []; 
+2026-04-05 19:38:50,823 [21140540]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of HTML-Groovy.html.groovy by request of indexes: [groovy.cucumber.step->NOT_INDEXED,filetypes->NOT_INDEXED,Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file HTML-Groovy.html.groovy with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=53767, fileInfo='HTML-Groovy.html.groovy(id=53767)'}] and removers: []; 
+2026-04-05 19:38:50,823 [21140540]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of HTML-JavaScript.html.js by request of indexes: [filetypes->NOT_INDEXED,Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,fileIncludes->NOT_INDEXED,js.string.literal.words.index->NOT_INDEXED,js.test.names->NOT_INDEXED,js.custom.single.entry.index->NOT_INDEXED,org.jetbrains.kotlin.idea.versions.KotlinJsMetadataVersionIndex->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file HTML-JavaScript.html.js with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=53762, fileInfo='HTML-JavaScript.html.js(id=53762)'}] and removers: []; 
+2026-04-05 19:38:50,823 [21140540]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of JSON-Groovy.json.groovy by request of indexes: [groovy.cucumber.step->NOT_INDEXED,filetypes->NOT_INDEXED,Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file JSON-Groovy.json.groovy with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=53769, fileInfo='JSON-Groovy.json.groovy(id=53769)'}] and removers: []; 
+2026-04-05 19:38:50,823 [21140540]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of Pretty-Groovy.txt.groovy by request of indexes: [groovy.cucumber.step->NOT_INDEXED,filetypes->NOT_INDEXED,Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file Pretty-Groovy.txt.groovy with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=53771, fileInfo='Pretty-Groovy.txt.groovy(id=53771)'}] and removers: []; 
+2026-04-05 19:38:50,824 [21140541]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of Markdown-Groovy.md.groovy by request of indexes: [groovy.cucumber.step->NOT_INDEXED,filetypes->NOT_INDEXED,Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file Markdown-Groovy.md.groovy with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=53765, fileInfo='Markdown-Groovy.md.groovy(id=53765)'}] and removers: []; 
+2026-04-05 19:38:50,824 [21140541]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of SQL-Insert-Multirow.sql.groovy by request of indexes: [groovy.cucumber.step->NOT_INDEXED,filetypes->NOT_INDEXED,Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file SQL-Insert-Multirow.sql.groovy with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=53763, fileInfo='SQL-Insert-Multirow.sql.groovy(id=53763)'}] and removers: []; 
+2026-04-05 19:38:50,824 [21140541]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of SQL-Insert-Statements.sql.groovy by request of indexes: [groovy.cucumber.step->NOT_INDEXED,filetypes->NOT_INDEXED,Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file SQL-Insert-Statements.sql.groovy with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=53766, fileInfo='SQL-Insert-Statements.sql.groovy(id=53766)'}] and removers: []; 
+2026-04-05 19:38:50,826 [21140543]   INFO - #c.i.u.i.UnindexedFilesScanner - Scanning completed for syncer. Number of scanned files: 26; number of files for indexing: 26 took 23ms; general responsiveness: ok; EDT responsiveness: ok
+2026-04-05 19:38:50,828 [21140545]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: UnindexedFilesScanner[syncer, 1 iterators]
+2026-04-05 19:38:50,935 [21140652] SEVERE - #c.i.u.i.PersistentEnumeratorBase - Storage corrupted /Users/sunx/Library/Mobile Documents/com~apple~CloudDocs/syncer/proj/github.com/sunznx/idea-emacs-editor/.intellijPlatform/sandbox/emacs-editor/IU-2023.3.6/system/index/frameworkdetectionindex/.perFileVersion/indexed_versions/indexed_versions_i
+com.intellij.util.io.CorruptedException: Storage corrupted /Users/sunx/Library/Mobile Documents/com~apple~CloudDocs/syncer/proj/github.com/sunznx/idea-emacs-editor/.intellijPlatform/sandbox/emacs-editor/IU-2023.3.6/system/index/frameworkdetectionindex/.perFileVersion/indexed_versions/indexed_versions_i
+	at com.intellij.util.io.IntToIntBtree$BtreeIndexNodeView.locate(IntToIntBtree.java:911)
+	at com.intellij.util.io.IntToIntBtree$BtreeIndexNodeView.access$100(IntToIntBtree.java:308)
+	at com.intellij.util.io.IntToIntBtree.get(IntToIntBtree.java:177)
+	at com.intellij.util.io.PersistentBTreeEnumerator.enumerateImpl(PersistentBTreeEnumerator.java:584)
+	at com.intellij.util.io.PersistentEnumeratorBase.lambda$doEnumerate$0(PersistentEnumeratorBase.java:266)
+	at com.intellij.util.io.PersistentEnumeratorBase.catchCorruption(PersistentEnumeratorBase.java:654)
+	at com.intellij.util.io.PersistentEnumeratorBase.doEnumerate(PersistentEnumeratorBase.java:265)
+	at com.intellij.util.io.PersistentEnumeratorBase.tryEnumerate(PersistentEnumeratorBase.java:256)
+	at com.intellij.util.io.PersistentMapImpl.doGet(PersistentMapImpl.java:655)
+	at com.intellij.util.io.PersistentMapImpl.get(PersistentMapImpl.java:613)
+	at com.intellij.util.io.PersistentHashMap.get(PersistentHashMap.java:196)
+	at com.intellij.util.indexing.impl.perFileVersion.PersistentSubIndexerVersionEnumerator$MyEnumerator.enumerate(PersistentSubIndexerVersionEnumerator.java:25)
+	at com.intellij.util.io.CachingEnumerator.enumerate(CachingEnumerator.java:75)
+	at com.intellij.util.indexing.impl.perFileVersion.PersistentSubIndexerVersionEnumerator.enumerate(PersistentSubIndexerVersionEnumerator.java:66)
+	at com.intellij.util.indexing.impl.perFileVersion.PersistentSubIndexerRetriever.getFileIndexerId(PersistentSubIndexerRetriever.java:109)
+	at com.intellij.util.indexing.impl.storage.VfsAwareMapReduceIndex.lambda$getFileIndexMetaData$2(VfsAwareMapReduceIndex.java:114)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:685)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computeUnderProgress(CoreProgressManager.java:641)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$computeInNonCancelableSection$3(CoreProgressManager.java:236)
+	at com.intellij.openapi.progress.Cancellation.computeInNonCancelableSection(Cancellation.java:57)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computeInNonCancelableSection(CoreProgressManager.java:236)
+	at com.intellij.util.indexing.impl.storage.VfsAwareMapReduceIndex.getFileIndexMetaData(VfsAwareMapReduceIndex.java:114)
+	at com.intellij.util.indexing.impl.storage.VfsAwareMapReduceIndex.getFileIndexMetaData(VfsAwareMapReduceIndex.java:32)
+	at com.intellij.indexing.composite.CompositeInvertedIndexBase.getFileIndexMetaData(CompositeInvertedIndexBase.java:179)
+	at com.intellij.util.indexing.FileBasedIndexImpl.createSingleIndexValueApplier(FileBasedIndexImpl.java:1569)
+	at com.intellij.util.indexing.FileBasedIndexImpl.lambda$doIndexFileContent$23(FileBasedIndexImpl.java:1444)
+	at com.intellij.openapi.fileTypes.impl.FileTypeManagerImpl.freezeFileTypeTemporarilyWithProvidedValueIn(FileTypeManagerImpl.java:678)
+	at com.intellij.util.indexing.FileBasedIndexImpl.doIndexFileContent(FileBasedIndexImpl.java:1397)
+	at com.intellij.util.indexing.FileBasedIndexImpl.indexFileContent(FileBasedIndexImpl.java:1371)
+	at com.intellij.util.indexing.contentQueue.IndexUpdateRunner.lambda$indexOneFileOfJob$5(IndexUpdateRunner.java:492)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$OTelMonitor.callWrapped(NonBlockingReadActionImpl.java:840)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$OTelMonitor$MonitoredComputation.call(NonBlockingReadActionImpl.java:872)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$Submission.insideReadAction(NonBlockingReadActionImpl.java:604)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$Submission.lambda$attemptComputation$4(NonBlockingReadActionImpl.java:567)
+	at com.intellij.openapi.application.impl.ApplicationImpl.tryRunReadAction(ApplicationImpl.java:1075)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.lambda$runInReadActionWithWriteActionPriority$0(ProgressIndicatorUtils.java:73)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtilService.runActionAndCancelBeforeWrite(ProgressIndicatorUtilService.java:73)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runActionAndCancelBeforeWrite(ProgressIndicatorUtils.java:128)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.lambda$runWithWriteActionPriority$1(ProgressIndicatorUtils.java:111)
+	at com.intellij.openapi.progress.ProgressManager.lambda$runProcess$0(ProgressManager.java:73)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$1(CoreProgressManager.java:192)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$executeProcessUnderProgress$12(CoreProgressManager.java:610)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:685)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computeUnderProgress(CoreProgressManager.java:641)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:609)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:78)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:179)
+	at com.intellij.openapi.progress.ProgressManager.runProcess(ProgressManager.java:73)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runWithWriteActionPriority(ProgressIndicatorUtils.java:108)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runInReadActionWithWriteActionPriority(ProgressIndicatorUtils.java:73)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$Submission.attemptComputation(NonBlockingReadActionImpl.java:567)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$Submission.executeSynchronously(NonBlockingReadActionImpl.java:492)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl.executeSynchronously(NonBlockingReadActionImpl.java:220)
+	at com.intellij.util.indexing.contentQueue.IndexUpdateRunner.indexOneFileOfJob(IndexUpdateRunner.java:496)
+	at com.intellij.util.indexing.contentQueue.IndexUpdateRunner.lambda$indexJobsFairly$4(IndexUpdateRunner.java:375)
+	at com.intellij.openapi.progress.impl.ProgressSuspender.executeNonSuspendableSection(ProgressSuspender.java:90)
+	at com.intellij.util.indexing.contentQueue.IndexUpdateRunner.indexJobsFairly(IndexUpdateRunner.java:378)
+	at com.intellij.util.indexing.contentQueue.IndexUpdateRunner.lambda$doIndexFiles$3(IndexUpdateRunner.java:309)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.doRun(BoundedTaskExecutor.java:244)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.access$200(BoundedTaskExecutor.java:30)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.executeFirstTaskAndHelpQueue(BoundedTaskExecutor.java:222)
+	at com.intellij.util.ConcurrencyUtil.runUnderThreadName(ConcurrencyUtil.java:218)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.run(BoundedTaskExecutor.java:210)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:702)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:699)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:699)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-04-05 19:38:50,942 [21140659] SEVERE - #c.i.u.i.PersistentEnumeratorBase - IntelliJ IDEA 2023.3.6  Build #IU-233.15026.9
+2026-04-05 19:38:50,942 [21140659] SEVERE - #c.i.u.i.PersistentEnumeratorBase - JDK: 17.0.10; VM: OpenJDK 64-Bit Server VM; Vendor: JetBrains s.r.o.
+2026-04-05 19:38:50,942 [21140659] SEVERE - #c.i.u.i.PersistentEnumeratorBase - OS: Mac OS X
+2026-04-05 19:38:50,942 [21140659] SEVERE - #c.i.u.i.PersistentEnumeratorBase - Last Action: EmacsEditor.FindFile
+2026-04-05 19:38:50,946 [21140663]   INFO - #c.i.u.i.FileBasedIndexImpl - Requesting index rebuild for: FrameworkDetectionIndex
+com.intellij.util.io.CorruptedException: Storage corrupted /Users/sunx/Library/Mobile Documents/com~apple~CloudDocs/syncer/proj/github.com/sunznx/idea-emacs-editor/.intellijPlatform/sandbox/emacs-editor/IU-2023.3.6/system/index/frameworkdetectionindex/.perFileVersion/indexed_versions/indexed_versions_i
+	at com.intellij.util.io.IntToIntBtree$BtreeIndexNodeView.locate(IntToIntBtree.java:911)
+	at com.intellij.util.io.IntToIntBtree$BtreeIndexNodeView.access$100(IntToIntBtree.java:308)
+	at com.intellij.util.io.IntToIntBtree.get(IntToIntBtree.java:177)
+	at com.intellij.util.io.PersistentBTreeEnumerator.enumerateImpl(PersistentBTreeEnumerator.java:584)
+	at com.intellij.util.io.PersistentEnumeratorBase.lambda$doEnumerate$0(PersistentEnumeratorBase.java:266)
+	at com.intellij.util.io.PersistentEnumeratorBase.catchCorruption(PersistentEnumeratorBase.java:654)
+	at com.intellij.util.io.PersistentEnumeratorBase.doEnumerate(PersistentEnumeratorBase.java:265)
+	at com.intellij.util.io.PersistentEnumeratorBase.tryEnumerate(PersistentEnumeratorBase.java:256)
+	at com.intellij.util.io.PersistentMapImpl.doGet(PersistentMapImpl.java:655)
+	at com.intellij.util.io.PersistentMapImpl.get(PersistentMapImpl.java:613)
+	at com.intellij.util.io.PersistentHashMap.get(PersistentHashMap.java:196)
+	at com.intellij.util.indexing.impl.perFileVersion.PersistentSubIndexerVersionEnumerator$MyEnumerator.enumerate(PersistentSubIndexerVersionEnumerator.java:25)
+	at com.intellij.util.io.CachingEnumerator.enumerate(CachingEnumerator.java:75)
+	at com.intellij.util.indexing.impl.perFileVersion.PersistentSubIndexerVersionEnumerator.enumerate(PersistentSubIndexerVersionEnumerator.java:66)
+	at com.intellij.util.indexing.impl.perFileVersion.PersistentSubIndexerRetriever.getFileIndexerId(PersistentSubIndexerRetriever.java:109)
+	at com.intellij.util.indexing.impl.storage.VfsAwareMapReduceIndex.lambda$getFileIndexMetaData$2(VfsAwareMapReduceIndex.java:114)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:685)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computeUnderProgress(CoreProgressManager.java:641)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$computeInNonCancelableSection$3(CoreProgressManager.java:236)
+	at com.intellij.openapi.progress.Cancellation.computeInNonCancelableSection(Cancellation.java:57)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computeInNonCancelableSection(CoreProgressManager.java:236)
+	at com.intellij.util.indexing.impl.storage.VfsAwareMapReduceIndex.getFileIndexMetaData(VfsAwareMapReduceIndex.java:114)
+	at com.intellij.util.indexing.impl.storage.VfsAwareMapReduceIndex.getFileIndexMetaData(VfsAwareMapReduceIndex.java:32)
+	at com.intellij.indexing.composite.CompositeInvertedIndexBase.getFileIndexMetaData(CompositeInvertedIndexBase.java:179)
+	at com.intellij.util.indexing.FileBasedIndexImpl.createSingleIndexValueApplier(FileBasedIndexImpl.java:1569)
+	at com.intellij.util.indexing.FileBasedIndexImpl.lambda$doIndexFileContent$23(FileBasedIndexImpl.java:1444)
+	at com.intellij.openapi.fileTypes.impl.FileTypeManagerImpl.freezeFileTypeTemporarilyWithProvidedValueIn(FileTypeManagerImpl.java:678)
+	at com.intellij.util.indexing.FileBasedIndexImpl.doIndexFileContent(FileBasedIndexImpl.java:1397)
+	at com.intellij.util.indexing.FileBasedIndexImpl.indexFileContent(FileBasedIndexImpl.java:1371)
+	at com.intellij.util.indexing.contentQueue.IndexUpdateRunner.lambda$indexOneFileOfJob$5(IndexUpdateRunner.java:492)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$OTelMonitor.callWrapped(NonBlockingReadActionImpl.java:840)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$OTelMonitor$MonitoredComputation.call(NonBlockingReadActionImpl.java:872)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$Submission.insideReadAction(NonBlockingReadActionImpl.java:604)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$Submission.lambda$attemptComputation$4(NonBlockingReadActionImpl.java:567)
+	at com.intellij.openapi.application.impl.ApplicationImpl.tryRunReadAction(ApplicationImpl.java:1075)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.lambda$runInReadActionWithWriteActionPriority$0(ProgressIndicatorUtils.java:73)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtilService.runActionAndCancelBeforeWrite(ProgressIndicatorUtilService.java:73)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runActionAndCancelBeforeWrite(ProgressIndicatorUtils.java:128)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.lambda$runWithWriteActionPriority$1(ProgressIndicatorUtils.java:111)
+	at com.intellij.openapi.progress.ProgressManager.lambda$runProcess$0(ProgressManager.java:73)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$1(CoreProgressManager.java:192)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$executeProcessUnderProgress$12(CoreProgressManager.java:610)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:685)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computeUnderProgress(CoreProgressManager.java:641)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:609)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:78)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:179)
+	at com.intellij.openapi.progress.ProgressManager.runProcess(ProgressManager.java:73)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runWithWriteActionPriority(ProgressIndicatorUtils.java:108)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runInReadActionWithWriteActionPriority(ProgressIndicatorUtils.java:73)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$Submission.attemptComputation(NonBlockingReadActionImpl.java:567)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$Submission.executeSynchronously(NonBlockingReadActionImpl.java:492)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl.executeSynchronously(NonBlockingReadActionImpl.java:220)
+	at com.intellij.util.indexing.contentQueue.IndexUpdateRunner.indexOneFileOfJob(IndexUpdateRunner.java:496)
+	at com.intellij.util.indexing.contentQueue.IndexUpdateRunner.lambda$indexJobsFairly$4(IndexUpdateRunner.java:375)
+	at com.intellij.openapi.progress.impl.ProgressSuspender.executeNonSuspendableSection(ProgressSuspender.java:90)
+	at com.intellij.util.indexing.contentQueue.IndexUpdateRunner.indexJobsFairly(IndexUpdateRunner.java:378)
+	at com.intellij.util.indexing.contentQueue.IndexUpdateRunner.lambda$doIndexFiles$3(IndexUpdateRunner.java:309)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.doRun(BoundedTaskExecutor.java:244)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.access$200(BoundedTaskExecutor.java:30)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.executeFirstTaskAndHelpQueue(BoundedTaskExecutor.java:222)
+	at com.intellij.util.ConcurrencyUtil.runUnderThreadName(ConcurrencyUtil.java:218)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.run(BoundedTaskExecutor.java:210)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:702)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:699)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:699)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-04-05 19:38:50,946 [21140663]   INFO - #c.i.u.i.d.AppIndexingDependenciesService - Invalidating all indexing flags. Reason: Rebuild requested for index FrameworkDetectionIndex
+2026-04-05 19:38:50,954 [21140671]   INFO - #c.i.u.i.FileBasedIndexImpl - Rebuild requested for index FrameworkDetectionIndex
+com.intellij.util.io.CorruptedException: Storage corrupted /Users/sunx/Library/Mobile Documents/com~apple~CloudDocs/syncer/proj/github.com/sunznx/idea-emacs-editor/.intellijPlatform/sandbox/emacs-editor/IU-2023.3.6/system/index/frameworkdetectionindex/.perFileVersion/indexed_versions/indexed_versions_i
+	at com.intellij.util.io.IntToIntBtree$BtreeIndexNodeView.locate(IntToIntBtree.java:911)
+	at com.intellij.util.io.IntToIntBtree$BtreeIndexNodeView.access$100(IntToIntBtree.java:308)
+	at com.intellij.util.io.IntToIntBtree.get(IntToIntBtree.java:177)
+	at com.intellij.util.io.PersistentBTreeEnumerator.enumerateImpl(PersistentBTreeEnumerator.java:584)
+	at com.intellij.util.io.PersistentEnumeratorBase.lambda$doEnumerate$0(PersistentEnumeratorBase.java:266)
+	at com.intellij.util.io.PersistentEnumeratorBase.catchCorruption(PersistentEnumeratorBase.java:654)
+	at com.intellij.util.io.PersistentEnumeratorBase.doEnumerate(PersistentEnumeratorBase.java:265)
+	at com.intellij.util.io.PersistentEnumeratorBase.tryEnumerate(PersistentEnumeratorBase.java:256)
+	at com.intellij.util.io.PersistentMapImpl.doGet(PersistentMapImpl.java:655)
+	at com.intellij.util.io.PersistentMapImpl.get(PersistentMapImpl.java:613)
+	at com.intellij.util.io.PersistentHashMap.get(PersistentHashMap.java:196)
+	at com.intellij.util.indexing.impl.perFileVersion.PersistentSubIndexerVersionEnumerator$MyEnumerator.enumerate(PersistentSubIndexerVersionEnumerator.java:25)
+	at com.intellij.util.io.CachingEnumerator.enumerate(CachingEnumerator.java:75)
+	at com.intellij.util.indexing.impl.perFileVersion.PersistentSubIndexerVersionEnumerator.enumerate(PersistentSubIndexerVersionEnumerator.java:66)
+	at com.intellij.util.indexing.impl.perFileVersion.PersistentSubIndexerRetriever.getFileIndexerId(PersistentSubIndexerRetriever.java:109)
+	at com.intellij.util.indexing.impl.storage.VfsAwareMapReduceIndex.lambda$getFileIndexMetaData$2(VfsAwareMapReduceIndex.java:114)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:685)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computeUnderProgress(CoreProgressManager.java:641)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$computeInNonCancelableSection$3(CoreProgressManager.java:236)
+	at com.intellij.openapi.progress.Cancellation.computeInNonCancelableSection(Cancellation.java:57)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computeInNonCancelableSection(CoreProgressManager.java:236)
+	at com.intellij.util.indexing.impl.storage.VfsAwareMapReduceIndex.getFileIndexMetaData(VfsAwareMapReduceIndex.java:114)
+	at com.intellij.util.indexing.impl.storage.VfsAwareMapReduceIndex.getFileIndexMetaData(VfsAwareMapReduceIndex.java:32)
+	at com.intellij.indexing.composite.CompositeInvertedIndexBase.getFileIndexMetaData(CompositeInvertedIndexBase.java:179)
+	at com.intellij.util.indexing.FileBasedIndexImpl.createSingleIndexValueApplier(FileBasedIndexImpl.java:1569)
+	at com.intellij.util.indexing.FileBasedIndexImpl.lambda$doIndexFileContent$23(FileBasedIndexImpl.java:1444)
+	at com.intellij.openapi.fileTypes.impl.FileTypeManagerImpl.freezeFileTypeTemporarilyWithProvidedValueIn(FileTypeManagerImpl.java:678)
+	at com.intellij.util.indexing.FileBasedIndexImpl.doIndexFileContent(FileBasedIndexImpl.java:1397)
+	at com.intellij.util.indexing.FileBasedIndexImpl.indexFileContent(FileBasedIndexImpl.java:1371)
+	at com.intellij.util.indexing.contentQueue.IndexUpdateRunner.lambda$indexOneFileOfJob$5(IndexUpdateRunner.java:492)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$OTelMonitor.callWrapped(NonBlockingReadActionImpl.java:840)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$OTelMonitor$MonitoredComputation.call(NonBlockingReadActionImpl.java:872)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$Submission.insideReadAction(NonBlockingReadActionImpl.java:604)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$Submission.lambda$attemptComputation$4(NonBlockingReadActionImpl.java:567)
+	at com.intellij.openapi.application.impl.ApplicationImpl.tryRunReadAction(ApplicationImpl.java:1075)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.lambda$runInReadActionWithWriteActionPriority$0(ProgressIndicatorUtils.java:73)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtilService.runActionAndCancelBeforeWrite(ProgressIndicatorUtilService.java:73)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runActionAndCancelBeforeWrite(ProgressIndicatorUtils.java:128)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.lambda$runWithWriteActionPriority$1(ProgressIndicatorUtils.java:111)
+	at com.intellij.openapi.progress.ProgressManager.lambda$runProcess$0(ProgressManager.java:73)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$1(CoreProgressManager.java:192)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$executeProcessUnderProgress$12(CoreProgressManager.java:610)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:685)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computeUnderProgress(CoreProgressManager.java:641)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:609)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:78)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:179)
+	at com.intellij.openapi.progress.ProgressManager.runProcess(ProgressManager.java:73)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runWithWriteActionPriority(ProgressIndicatorUtils.java:108)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runInReadActionWithWriteActionPriority(ProgressIndicatorUtils.java:73)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$Submission.attemptComputation(NonBlockingReadActionImpl.java:567)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$Submission.executeSynchronously(NonBlockingReadActionImpl.java:492)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl.executeSynchronously(NonBlockingReadActionImpl.java:220)
+	at com.intellij.util.indexing.contentQueue.IndexUpdateRunner.indexOneFileOfJob(IndexUpdateRunner.java:496)
+	at com.intellij.util.indexing.contentQueue.IndexUpdateRunner.lambda$indexJobsFairly$4(IndexUpdateRunner.java:375)
+	at com.intellij.openapi.progress.impl.ProgressSuspender.executeNonSuspendableSection(ProgressSuspender.java:90)
+	at com.intellij.util.indexing.contentQueue.IndexUpdateRunner.indexJobsFairly(IndexUpdateRunner.java:378)
+	at com.intellij.util.indexing.contentQueue.IndexUpdateRunner.lambda$doIndexFiles$3(IndexUpdateRunner.java:309)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.doRun(BoundedTaskExecutor.java:244)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.access$200(BoundedTaskExecutor.java:30)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.executeFirstTaskAndHelpQueue(BoundedTaskExecutor.java:222)
+	at com.intellij.util.ConcurrencyUtil.runUnderThreadName(ConcurrencyUtil.java:218)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.run(BoundedTaskExecutor.java:210)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:702)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:699)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:699)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-04-05 19:38:50,954 [21140671]   INFO - #c.i.u.i.d.AppIndexingDependenciesService - Invalidating all indexing flags. Reason: Rebuild requested for index FrameworkDetectionIndex
+2026-04-05 19:38:50,992 [21140709]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53700,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.psi.tree.IStubFileElementType), external id:psi.file, language:Language: ANY
+2026-04-05 19:38:50,992 [21140709]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53702,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.psi.tree.IStubFileElementType), external id:psi.file, language:Language: ANY
+2026-04-05 19:38:50,992 [21140709]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53699,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.psi.tree.IStubFileElementType), external id:psi.file, language:Language: ANY
+2026-04-05 19:38:50,992 [21140709]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53698,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.psi.tree.IStubFileElementType), external id:psi.file, language:Language: ANY
+2026-04-05 19:38:50,992 [21140709]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53704,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.psi.tree.IStubFileElementType), external id:psi.file, language:Language: ANY
+2026-04-05 19:38:50,993 [21140710]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53712,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.psi.tree.IStubFileElementType), external id:psi.file, language:Language: ANY
+2026-04-05 19:38:50,993 [21140710]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53710,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.psi.tree.IStubFileElementType), external id:psi.file, language:Language: ANY
+2026-04-05 19:38:50,993 [21140710]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53713,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.psi.tree.IStubFileElementType), external id:psi.file, language:Language: ANY
+2026-04-05 19:38:50,993 [21140710]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53711,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.psi.tree.IStubFileElementType), external id:psi.file, language:Language: ANY
+2026-04-05 19:38:50,993 [21140710]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53716,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.psi.tree.IStubFileElementType), external id:psi.file, language:Language: ANY
+2026-04-05 19:38:50,994 [21140711]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53717,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.psi.tree.IStubFileElementType), external id:psi.file, language:Language: ANY
+2026-04-05 19:38:50,995 [21140712]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53034,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.psi.tree.IStubFileElementType), external id:psi.file, language:Language: ANY
+2026-04-05 19:38:50,996 [21140713]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53045,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.psi.tree.IStubFileElementType), external id:psi.file, language:Language: ANY
+2026-04-05 19:38:51,185 [21140902]   INFO - #c.i.w.i.i.EntitiesOrphanageImpl - Update orphanage. 0 modules added
+2026-04-05 19:38:51,187 [21140904]   INFO - #c.i.w.i.i.WorkspaceModelImpl - Project model updated to version 4 in 7 ms: Reload entities after changes in JPS configuration files
+2026-04-05 19:38:51,279 [21140996]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53046,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.psi.tree.IStubFileElementType), external id:psi.file, language:Language: ANY
+2026-04-05 19:38:51,302 [21141019]   INFO - #c.i.u.i.UnindexedFilesIndexer - Finished for syncer. Unindexed files update took 513ms; general responsiveness: ok; EDT responsiveness: ok
+2026-04-05 19:38:51,303 [21141020]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: (dumb mode task) UnindexedFilesIndexer[syncer, 0 iterators, reason: On refresh of files in syncer]
+2026-04-05 19:38:51,303 [21141020]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: (dumb mode task) com.intellij.util.indexing.DumbModeWhileScanningTrigger$DumbModeWhileScanning@34474f38
+2026-04-05 19:38:51,303 [21141020]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: (dumb mode task) com.intellij.util.indexing.DumbModeWhileScanningTrigger$DumbModeWhileScanning@34474f38
+2026-04-05 19:38:51,304 [21141021]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: (dumb mode task) UnindexedFilesIndexer[syncer, 1 iterators, reason: Merged changes in: "Custom kind roots from entity (extensions, empty)" with On refresh of files in syncer]
+2026-04-05 19:38:51,304 [21141021]   INFO - #c.i.u.i.c.IndexUpdateRunner - Using 5 indexing  and 4 writing threads for indexing
+2026-04-05 19:38:51,315 [21141032] SEVERE - #c.i.u.i.PersistentEnumeratorBase - Storage corrupted /Users/sunx/Library/Mobile Documents/com~apple~CloudDocs/syncer/proj/github.com/sunznx/idea-emacs-editor/.intellijPlatform/sandbox/emacs-editor/IU-2023.3.6/system/index/fileincludes/.perFileVersion/indexed_versions/indexed_versions_i
+com.intellij.util.io.CorruptedException: Storage corrupted /Users/sunx/Library/Mobile Documents/com~apple~CloudDocs/syncer/proj/github.com/sunznx/idea-emacs-editor/.intellijPlatform/sandbox/emacs-editor/IU-2023.3.6/system/index/fileincludes/.perFileVersion/indexed_versions/indexed_versions_i
+	at com.intellij.util.io.IntToIntBtree$BtreeIndexNodeView.locate(IntToIntBtree.java:911)
+	at com.intellij.util.io.IntToIntBtree$BtreeIndexNodeView.access$100(IntToIntBtree.java:308)
+	at com.intellij.util.io.IntToIntBtree.get(IntToIntBtree.java:177)
+	at com.intellij.util.io.PersistentBTreeEnumerator.enumerateImpl(PersistentBTreeEnumerator.java:584)
+	at com.intellij.util.io.PersistentEnumeratorBase.lambda$doEnumerate$0(PersistentEnumeratorBase.java:266)
+	at com.intellij.util.io.PersistentEnumeratorBase.catchCorruption(PersistentEnumeratorBase.java:654)
+	at com.intellij.util.io.PersistentEnumeratorBase.doEnumerate(PersistentEnumeratorBase.java:265)
+	at com.intellij.util.io.PersistentEnumeratorBase.tryEnumerate(PersistentEnumeratorBase.java:256)
+	at com.intellij.util.io.PersistentMapImpl.doGet(PersistentMapImpl.java:655)
+	at com.intellij.util.io.PersistentMapImpl.get(PersistentMapImpl.java:613)
+	at com.intellij.util.io.PersistentHashMap.get(PersistentHashMap.java:196)
+	at com.intellij.util.indexing.impl.perFileVersion.PersistentSubIndexerVersionEnumerator$MyEnumerator.enumerate(PersistentSubIndexerVersionEnumerator.java:25)
+	at com.intellij.util.io.CachingEnumerator.enumerate(CachingEnumerator.java:75)
+	at com.intellij.util.indexing.impl.perFileVersion.PersistentSubIndexerVersionEnumerator.enumerate(PersistentSubIndexerVersionEnumerator.java:66)
+	at com.intellij.util.indexing.impl.perFileVersion.PersistentSubIndexerRetriever.getFileIndexerId(PersistentSubIndexerRetriever.java:109)
+	at com.intellij.util.indexing.impl.storage.VfsAwareMapReduceIndex.lambda$getFileIndexMetaData$2(VfsAwareMapReduceIndex.java:114)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:685)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computeUnderProgress(CoreProgressManager.java:641)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$computeInNonCancelableSection$3(CoreProgressManager.java:236)
+	at com.intellij.openapi.progress.Cancellation.computeInNonCancelableSection(Cancellation.java:57)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computeInNonCancelableSection(CoreProgressManager.java:236)
+	at com.intellij.util.indexing.impl.storage.VfsAwareMapReduceIndex.getFileIndexMetaData(VfsAwareMapReduceIndex.java:114)
+	at com.intellij.util.indexing.impl.storage.VfsAwareMapReduceIndex.getFileIndexMetaData(VfsAwareMapReduceIndex.java:32)
+	at com.intellij.indexing.composite.CompositeInvertedIndexBase.getFileIndexMetaData(CompositeInvertedIndexBase.java:179)
+	at com.intellij.util.indexing.FileBasedIndexImpl.createSingleIndexValueApplier(FileBasedIndexImpl.java:1569)
+	at com.intellij.util.indexing.FileBasedIndexImpl.lambda$doIndexFileContent$23(FileBasedIndexImpl.java:1444)
+	at com.intellij.openapi.fileTypes.impl.FileTypeManagerImpl.freezeFileTypeTemporarilyWithProvidedValueIn(FileTypeManagerImpl.java:678)
+	at com.intellij.util.indexing.FileBasedIndexImpl.doIndexFileContent(FileBasedIndexImpl.java:1397)
+	at com.intellij.util.indexing.FileBasedIndexImpl.indexFileContent(FileBasedIndexImpl.java:1371)
+	at com.intellij.util.indexing.contentQueue.IndexUpdateRunner.lambda$indexOneFileOfJob$5(IndexUpdateRunner.java:492)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$OTelMonitor.callWrapped(NonBlockingReadActionImpl.java:840)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$OTelMonitor$MonitoredComputation.call(NonBlockingReadActionImpl.java:872)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$Submission.insideReadAction(NonBlockingReadActionImpl.java:604)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$Submission.lambda$attemptComputation$4(NonBlockingReadActionImpl.java:567)
+	at com.intellij.openapi.application.impl.ApplicationImpl.tryRunReadAction(ApplicationImpl.java:1075)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.lambda$runInReadActionWithWriteActionPriority$0(ProgressIndicatorUtils.java:73)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtilService.runActionAndCancelBeforeWrite(ProgressIndicatorUtilService.java:73)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runActionAndCancelBeforeWrite(ProgressIndicatorUtils.java:128)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.lambda$runWithWriteActionPriority$1(ProgressIndicatorUtils.java:111)
+	at com.intellij.openapi.progress.ProgressManager.lambda$runProcess$0(ProgressManager.java:73)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$1(CoreProgressManager.java:192)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$executeProcessUnderProgress$12(CoreProgressManager.java:610)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:685)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computeUnderProgress(CoreProgressManager.java:641)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:609)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:78)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:179)
+	at com.intellij.openapi.progress.ProgressManager.runProcess(ProgressManager.java:73)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runWithWriteActionPriority(ProgressIndicatorUtils.java:108)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runInReadActionWithWriteActionPriority(ProgressIndicatorUtils.java:73)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$Submission.attemptComputation(NonBlockingReadActionImpl.java:567)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$Submission.executeSynchronously(NonBlockingReadActionImpl.java:492)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl.executeSynchronously(NonBlockingReadActionImpl.java:220)
+	at com.intellij.util.indexing.contentQueue.IndexUpdateRunner.indexOneFileOfJob(IndexUpdateRunner.java:496)
+	at com.intellij.util.indexing.contentQueue.IndexUpdateRunner.lambda$indexJobsFairly$4(IndexUpdateRunner.java:375)
+	at com.intellij.openapi.progress.impl.ProgressSuspender.executeNonSuspendableSection(ProgressSuspender.java:90)
+	at com.intellij.util.indexing.contentQueue.IndexUpdateRunner.indexJobsFairly(IndexUpdateRunner.java:378)
+	at com.intellij.util.indexing.contentQueue.IndexUpdateRunner.lambda$doIndexFiles$3(IndexUpdateRunner.java:309)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.doRun(BoundedTaskExecutor.java:244)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.access$200(BoundedTaskExecutor.java:30)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.executeFirstTaskAndHelpQueue(BoundedTaskExecutor.java:222)
+	at com.intellij.util.ConcurrencyUtil.runUnderThreadName(ConcurrencyUtil.java:218)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.run(BoundedTaskExecutor.java:210)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:702)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:699)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:699)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-04-05 19:38:51,316 [21141033] SEVERE - #c.i.u.i.PersistentEnumeratorBase - IntelliJ IDEA 2023.3.6  Build #IU-233.15026.9
+2026-04-05 19:38:51,316 [21141033] SEVERE - #c.i.u.i.PersistentEnumeratorBase - JDK: 17.0.10; VM: OpenJDK 64-Bit Server VM; Vendor: JetBrains s.r.o.
+2026-04-05 19:38:51,316 [21141033] SEVERE - #c.i.u.i.PersistentEnumeratorBase - OS: Mac OS X
+2026-04-05 19:38:51,316 [21141033] SEVERE - #c.i.u.i.PersistentEnumeratorBase - Last Action: EmacsEditor.FindFile
+2026-04-05 19:38:51,318 [21141035]   INFO - #c.i.u.i.FileBasedIndexImpl - Requesting index rebuild for: fileIncludes
+com.intellij.util.io.CorruptedException: Storage corrupted /Users/sunx/Library/Mobile Documents/com~apple~CloudDocs/syncer/proj/github.com/sunznx/idea-emacs-editor/.intellijPlatform/sandbox/emacs-editor/IU-2023.3.6/system/index/fileincludes/.perFileVersion/indexed_versions/indexed_versions_i
+	at com.intellij.util.io.IntToIntBtree$BtreeIndexNodeView.locate(IntToIntBtree.java:911)
+	at com.intellij.util.io.IntToIntBtree$BtreeIndexNodeView.access$100(IntToIntBtree.java:308)
+	at com.intellij.util.io.IntToIntBtree.get(IntToIntBtree.java:177)
+	at com.intellij.util.io.PersistentBTreeEnumerator.enumerateImpl(PersistentBTreeEnumerator.java:584)
+	at com.intellij.util.io.PersistentEnumeratorBase.lambda$doEnumerate$0(PersistentEnumeratorBase.java:266)
+	at com.intellij.util.io.PersistentEnumeratorBase.catchCorruption(PersistentEnumeratorBase.java:654)
+	at com.intellij.util.io.PersistentEnumeratorBase.doEnumerate(PersistentEnumeratorBase.java:265)
+	at com.intellij.util.io.PersistentEnumeratorBase.tryEnumerate(PersistentEnumeratorBase.java:256)
+	at com.intellij.util.io.PersistentMapImpl.doGet(PersistentMapImpl.java:655)
+	at com.intellij.util.io.PersistentMapImpl.get(PersistentMapImpl.java:613)
+	at com.intellij.util.io.PersistentHashMap.get(PersistentHashMap.java:196)
+	at com.intellij.util.indexing.impl.perFileVersion.PersistentSubIndexerVersionEnumerator$MyEnumerator.enumerate(PersistentSubIndexerVersionEnumerator.java:25)
+	at com.intellij.util.io.CachingEnumerator.enumerate(CachingEnumerator.java:75)
+	at com.intellij.util.indexing.impl.perFileVersion.PersistentSubIndexerVersionEnumerator.enumerate(PersistentSubIndexerVersionEnumerator.java:66)
+	at com.intellij.util.indexing.impl.perFileVersion.PersistentSubIndexerRetriever.getFileIndexerId(PersistentSubIndexerRetriever.java:109)
+	at com.intellij.util.indexing.impl.storage.VfsAwareMapReduceIndex.lambda$getFileIndexMetaData$2(VfsAwareMapReduceIndex.java:114)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:685)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computeUnderProgress(CoreProgressManager.java:641)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$computeInNonCancelableSection$3(CoreProgressManager.java:236)
+	at com.intellij.openapi.progress.Cancellation.computeInNonCancelableSection(Cancellation.java:57)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computeInNonCancelableSection(CoreProgressManager.java:236)
+	at com.intellij.util.indexing.impl.storage.VfsAwareMapReduceIndex.getFileIndexMetaData(VfsAwareMapReduceIndex.java:114)
+	at com.intellij.util.indexing.impl.storage.VfsAwareMapReduceIndex.getFileIndexMetaData(VfsAwareMapReduceIndex.java:32)
+	at com.intellij.indexing.composite.CompositeInvertedIndexBase.getFileIndexMetaData(CompositeInvertedIndexBase.java:179)
+	at com.intellij.util.indexing.FileBasedIndexImpl.createSingleIndexValueApplier(FileBasedIndexImpl.java:1569)
+	at com.intellij.util.indexing.FileBasedIndexImpl.lambda$doIndexFileContent$23(FileBasedIndexImpl.java:1444)
+	at com.intellij.openapi.fileTypes.impl.FileTypeManagerImpl.freezeFileTypeTemporarilyWithProvidedValueIn(FileTypeManagerImpl.java:678)
+	at com.intellij.util.indexing.FileBasedIndexImpl.doIndexFileContent(FileBasedIndexImpl.java:1397)
+	at com.intellij.util.indexing.FileBasedIndexImpl.indexFileContent(FileBasedIndexImpl.java:1371)
+	at com.intellij.util.indexing.contentQueue.IndexUpdateRunner.lambda$indexOneFileOfJob$5(IndexUpdateRunner.java:492)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$OTelMonitor.callWrapped(NonBlockingReadActionImpl.java:840)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$OTelMonitor$MonitoredComputation.call(NonBlockingReadActionImpl.java:872)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$Submission.insideReadAction(NonBlockingReadActionImpl.java:604)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$Submission.lambda$attemptComputation$4(NonBlockingReadActionImpl.java:567)
+	at com.intellij.openapi.application.impl.ApplicationImpl.tryRunReadAction(ApplicationImpl.java:1075)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.lambda$runInReadActionWithWriteActionPriority$0(ProgressIndicatorUtils.java:73)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtilService.runActionAndCancelBeforeWrite(ProgressIndicatorUtilService.java:73)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runActionAndCancelBeforeWrite(ProgressIndicatorUtils.java:128)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.lambda$runWithWriteActionPriority$1(ProgressIndicatorUtils.java:111)
+	at com.intellij.openapi.progress.ProgressManager.lambda$runProcess$0(ProgressManager.java:73)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$1(CoreProgressManager.java:192)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$executeProcessUnderProgress$12(CoreProgressManager.java:610)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:685)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computeUnderProgress(CoreProgressManager.java:641)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:609)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:78)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:179)
+	at com.intellij.openapi.progress.ProgressManager.runProcess(ProgressManager.java:73)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runWithWriteActionPriority(ProgressIndicatorUtils.java:108)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runInReadActionWithWriteActionPriority(ProgressIndicatorUtils.java:73)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$Submission.attemptComputation(NonBlockingReadActionImpl.java:567)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$Submission.executeSynchronously(NonBlockingReadActionImpl.java:492)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl.executeSynchronously(NonBlockingReadActionImpl.java:220)
+	at com.intellij.util.indexing.contentQueue.IndexUpdateRunner.indexOneFileOfJob(IndexUpdateRunner.java:496)
+	at com.intellij.util.indexing.contentQueue.IndexUpdateRunner.lambda$indexJobsFairly$4(IndexUpdateRunner.java:375)
+	at com.intellij.openapi.progress.impl.ProgressSuspender.executeNonSuspendableSection(ProgressSuspender.java:90)
+	at com.intellij.util.indexing.contentQueue.IndexUpdateRunner.indexJobsFairly(IndexUpdateRunner.java:378)
+	at com.intellij.util.indexing.contentQueue.IndexUpdateRunner.lambda$doIndexFiles$3(IndexUpdateRunner.java:309)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.doRun(BoundedTaskExecutor.java:244)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.access$200(BoundedTaskExecutor.java:30)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.executeFirstTaskAndHelpQueue(BoundedTaskExecutor.java:222)
+	at com.intellij.util.ConcurrencyUtil.runUnderThreadName(ConcurrencyUtil.java:218)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.run(BoundedTaskExecutor.java:210)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:702)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:699)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:699)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-04-05 19:38:51,318 [21141035]   INFO - #c.i.u.i.d.AppIndexingDependenciesService - Invalidating all indexing flags. Reason: Rebuild requested for index fileIncludes
+2026-04-05 19:38:51,323 [21141040]   INFO - #c.i.u.i.FileBasedIndexImpl - Rebuild requested for index fileIncludes
+com.intellij.util.io.CorruptedException: Storage corrupted /Users/sunx/Library/Mobile Documents/com~apple~CloudDocs/syncer/proj/github.com/sunznx/idea-emacs-editor/.intellijPlatform/sandbox/emacs-editor/IU-2023.3.6/system/index/fileincludes/.perFileVersion/indexed_versions/indexed_versions_i
+	at com.intellij.util.io.IntToIntBtree$BtreeIndexNodeView.locate(IntToIntBtree.java:911)
+	at com.intellij.util.io.IntToIntBtree$BtreeIndexNodeView.access$100(IntToIntBtree.java:308)
+	at com.intellij.util.io.IntToIntBtree.get(IntToIntBtree.java:177)
+	at com.intellij.util.io.PersistentBTreeEnumerator.enumerateImpl(PersistentBTreeEnumerator.java:584)
+	at com.intellij.util.io.PersistentEnumeratorBase.lambda$doEnumerate$0(PersistentEnumeratorBase.java:266)
+	at com.intellij.util.io.PersistentEnumeratorBase.catchCorruption(PersistentEnumeratorBase.java:654)
+	at com.intellij.util.io.PersistentEnumeratorBase.doEnumerate(PersistentEnumeratorBase.java:265)
+	at com.intellij.util.io.PersistentEnumeratorBase.tryEnumerate(PersistentEnumeratorBase.java:256)
+	at com.intellij.util.io.PersistentMapImpl.doGet(PersistentMapImpl.java:655)
+	at com.intellij.util.io.PersistentMapImpl.get(PersistentMapImpl.java:613)
+	at com.intellij.util.io.PersistentHashMap.get(PersistentHashMap.java:196)
+	at com.intellij.util.indexing.impl.perFileVersion.PersistentSubIndexerVersionEnumerator$MyEnumerator.enumerate(PersistentSubIndexerVersionEnumerator.java:25)
+	at com.intellij.util.io.CachingEnumerator.enumerate(CachingEnumerator.java:75)
+	at com.intellij.util.indexing.impl.perFileVersion.PersistentSubIndexerVersionEnumerator.enumerate(PersistentSubIndexerVersionEnumerator.java:66)
+	at com.intellij.util.indexing.impl.perFileVersion.PersistentSubIndexerRetriever.getFileIndexerId(PersistentSubIndexerRetriever.java:109)
+	at com.intellij.util.indexing.impl.storage.VfsAwareMapReduceIndex.lambda$getFileIndexMetaData$2(VfsAwareMapReduceIndex.java:114)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:685)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computeUnderProgress(CoreProgressManager.java:641)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$computeInNonCancelableSection$3(CoreProgressManager.java:236)
+	at com.intellij.openapi.progress.Cancellation.computeInNonCancelableSection(Cancellation.java:57)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computeInNonCancelableSection(CoreProgressManager.java:236)
+	at com.intellij.util.indexing.impl.storage.VfsAwareMapReduceIndex.getFileIndexMetaData(VfsAwareMapReduceIndex.java:114)
+	at com.intellij.util.indexing.impl.storage.VfsAwareMapReduceIndex.getFileIndexMetaData(VfsAwareMapReduceIndex.java:32)
+	at com.intellij.indexing.composite.CompositeInvertedIndexBase.getFileIndexMetaData(CompositeInvertedIndexBase.java:179)
+	at com.intellij.util.indexing.FileBasedIndexImpl.createSingleIndexValueApplier(FileBasedIndexImpl.java:1569)
+	at com.intellij.util.indexing.FileBasedIndexImpl.lambda$doIndexFileContent$23(FileBasedIndexImpl.java:1444)
+	at com.intellij.openapi.fileTypes.impl.FileTypeManagerImpl.freezeFileTypeTemporarilyWithProvidedValueIn(FileTypeManagerImpl.java:678)
+	at com.intellij.util.indexing.FileBasedIndexImpl.doIndexFileContent(FileBasedIndexImpl.java:1397)
+	at com.intellij.util.indexing.FileBasedIndexImpl.indexFileContent(FileBasedIndexImpl.java:1371)
+	at com.intellij.util.indexing.contentQueue.IndexUpdateRunner.lambda$indexOneFileOfJob$5(IndexUpdateRunner.java:492)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$OTelMonitor.callWrapped(NonBlockingReadActionImpl.java:840)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$OTelMonitor$MonitoredComputation.call(NonBlockingReadActionImpl.java:872)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$Submission.insideReadAction(NonBlockingReadActionImpl.java:604)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$Submission.lambda$attemptComputation$4(NonBlockingReadActionImpl.java:567)
+	at com.intellij.openapi.application.impl.ApplicationImpl.tryRunReadAction(ApplicationImpl.java:1075)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.lambda$runInReadActionWithWriteActionPriority$0(ProgressIndicatorUtils.java:73)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtilService.runActionAndCancelBeforeWrite(ProgressIndicatorUtilService.java:73)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runActionAndCancelBeforeWrite(ProgressIndicatorUtils.java:128)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.lambda$runWithWriteActionPriority$1(ProgressIndicatorUtils.java:111)
+	at com.intellij.openapi.progress.ProgressManager.lambda$runProcess$0(ProgressManager.java:73)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$1(CoreProgressManager.java:192)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$executeProcessUnderProgress$12(CoreProgressManager.java:610)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:685)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computeUnderProgress(CoreProgressManager.java:641)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:609)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:78)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:179)
+	at com.intellij.openapi.progress.ProgressManager.runProcess(ProgressManager.java:73)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runWithWriteActionPriority(ProgressIndicatorUtils.java:108)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runInReadActionWithWriteActionPriority(ProgressIndicatorUtils.java:73)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$Submission.attemptComputation(NonBlockingReadActionImpl.java:567)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$Submission.executeSynchronously(NonBlockingReadActionImpl.java:492)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl.executeSynchronously(NonBlockingReadActionImpl.java:220)
+	at com.intellij.util.indexing.contentQueue.IndexUpdateRunner.indexOneFileOfJob(IndexUpdateRunner.java:496)
+	at com.intellij.util.indexing.contentQueue.IndexUpdateRunner.lambda$indexJobsFairly$4(IndexUpdateRunner.java:375)
+	at com.intellij.openapi.progress.impl.ProgressSuspender.executeNonSuspendableSection(ProgressSuspender.java:90)
+	at com.intellij.util.indexing.contentQueue.IndexUpdateRunner.indexJobsFairly(IndexUpdateRunner.java:378)
+	at com.intellij.util.indexing.contentQueue.IndexUpdateRunner.lambda$doIndexFiles$3(IndexUpdateRunner.java:309)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.doRun(BoundedTaskExecutor.java:244)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.access$200(BoundedTaskExecutor.java:30)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.executeFirstTaskAndHelpQueue(BoundedTaskExecutor.java:222)
+	at com.intellij.util.ConcurrencyUtil.runUnderThreadName(ConcurrencyUtil.java:218)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.run(BoundedTaskExecutor.java:210)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:702)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:699)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:699)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-04-05 19:38:51,324 [21141041]   INFO - #c.i.u.i.d.AppIndexingDependenciesService - Invalidating all indexing flags. Reason: Rebuild requested for index fileIncludes
+2026-04-05 19:38:51,334 [21141051]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53762,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: ECMAScript 6:FILE, language:Language: ECMAScript 6
+2026-04-05 19:38:51,335 [21141052] SEVERE - #c.i.u.i.FileBasedIndexImpl - Error while indexing /Users/sunx/Library/Mobile Documents/com~apple~CloudDocs/syncer/proj/github.com/sunznx/idea-emacs-editor/.intellijPlatform/sandbox/emacs-editor/IU-2023.3.6/config/extensions/com.intellij.database/data/extractors/HTML-JavaScript.html.js
+To reindex this file IDEA has to be restarted
+java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: ECMAScript 6:FILE, language:Language: ECMAScript 6
+	at com.intellij.psi.stubs.StubSerializerEnumerator.getClassId(StubSerializerEnumerator.java:78)
+	at com.intellij.psi.stubs.StubSerializationHelper.writeSerializerId(StubSerializationHelper.java:37)
+	at com.intellij.psi.stubs.StubSerializationHelper.writeSerializerId(StubSerializationHelper.java:12)
+	at com.intellij.psi.stubs.StubTreeSerializerBase.writeSerializerId(StubTreeSerializerBase.java:149)
+	at com.intellij.psi.stubs.StubTreeSerializerBase.serializeSelf(StubTreeSerializerBase.java:140)
+	at com.intellij.psi.stubs.StubTreeSerializerBase.serializeRoot(StubTreeSerializerBase.java:169)
+	at com.intellij.psi.stubs.StubTreeSerializerBase.serialize(StubTreeSerializerBase.java:86)
+	at com.intellij.psi.stubs.SerializationManagerImpl.serialize(SerializationManagerImpl.java:198)
+	at com.intellij.psi.stubs.SerializedStubTree.serializeStub(SerializedStubTree.java:98)
+	at com.intellij.psi.stubs.StubUpdatingIndex$2.computeValue(StubUpdatingIndex.java:212)
+	at com.intellij.psi.stubs.StubUpdatingIndex$2.computeValue(StubUpdatingIndex.java:176)
+	at com.intellij.psi.stubs.StubUpdatingIndex$2.computeValue(StubUpdatingIndex.java:145)
+	at com.intellij.util.indexing.SingleEntryIndexer.map(SingleEntryIndexer.java:30)
+	at com.intellij.util.indexing.SingleEntryIndexer.map(SingleEntryIndexer.java:19)
+	at com.intellij.util.indexing.impl.MapReduceIndex.mapByIndexer(MapReduceIndex.java:318)
+	at com.intellij.util.indexing.impl.MapReduceIndex.mapInput(MapReduceIndex.java:309)
+	at com.intellij.util.indexing.impl.MapReduceIndex.mapInputAndPrepareUpdate(MapReduceIndex.java:254)
+	at com.intellij.psi.stubs.StubUpdatingIndexStorage.mapInputAndPrepareUpdate(StubUpdatingIndexStorage.java:62)
+	at com.intellij.psi.stubs.StubUpdatingIndexStorage.mapInputAndPrepareUpdate(StubUpdatingIndexStorage.java:22)
+	at com.intellij.indexing.composite.CompositeInvertedIndexBase.updateBaseIndex(CompositeInvertedIndexBase.java:283)
+	at com.intellij.indexing.composite.CompositeInvertedIndexBase.mapInputAndPrepareUpdate(CompositeInvertedIndexBase.java:63)
+	at com.intellij.indexing.composite.CompositeInvertedIndexBase.mapInputAndPrepareUpdate(CompositeInvertedIndexBase.java:29)
+	at com.intellij.util.indexing.FileBasedIndexImpl.createSingleIndexValueApplier(FileBasedIndexImpl.java:1571)
+	at com.intellij.util.indexing.FileBasedIndexImpl.lambda$doIndexFileContent$23(FileBasedIndexImpl.java:1444)
+	at com.intellij.openapi.fileTypes.impl.FileTypeManagerImpl.freezeFileTypeTemporarilyWithProvidedValueIn(FileTypeManagerImpl.java:678)
+	at com.intellij.util.indexing.FileBasedIndexImpl.doIndexFileContent(FileBasedIndexImpl.java:1397)
+	at com.intellij.util.indexing.FileBasedIndexImpl.indexFileContent(FileBasedIndexImpl.java:1371)
+	at com.intellij.util.indexing.contentQueue.IndexUpdateRunner.lambda$indexOneFileOfJob$5(IndexUpdateRunner.java:492)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$OTelMonitor.callWrapped(NonBlockingReadActionImpl.java:840)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$OTelMonitor$MonitoredComputation.call(NonBlockingReadActionImpl.java:872)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$Submission.insideReadAction(NonBlockingReadActionImpl.java:604)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$Submission.lambda$attemptComputation$4(NonBlockingReadActionImpl.java:567)
+	at com.intellij.openapi.application.impl.ApplicationImpl.tryRunReadAction(ApplicationImpl.java:1075)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.lambda$runInReadActionWithWriteActionPriority$0(ProgressIndicatorUtils.java:73)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtilService.runActionAndCancelBeforeWrite(ProgressIndicatorUtilService.java:73)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runActionAndCancelBeforeWrite(ProgressIndicatorUtils.java:128)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.lambda$runWithWriteActionPriority$1(ProgressIndicatorUtils.java:111)
+	at com.intellij.openapi.progress.ProgressManager.lambda$runProcess$0(ProgressManager.java:73)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$1(CoreProgressManager.java:192)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$executeProcessUnderProgress$12(CoreProgressManager.java:610)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:685)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computeUnderProgress(CoreProgressManager.java:641)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:609)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:78)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:179)
+	at com.intellij.openapi.progress.ProgressManager.runProcess(ProgressManager.java:73)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runWithWriteActionPriority(ProgressIndicatorUtils.java:108)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runInReadActionWithWriteActionPriority(ProgressIndicatorUtils.java:73)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$Submission.attemptComputation(NonBlockingReadActionImpl.java:567)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$Submission.executeSynchronously(NonBlockingReadActionImpl.java:492)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl.executeSynchronously(NonBlockingReadActionImpl.java:220)
+	at com.intellij.util.indexing.contentQueue.IndexUpdateRunner.indexOneFileOfJob(IndexUpdateRunner.java:496)
+	at com.intellij.util.indexing.contentQueue.IndexUpdateRunner.lambda$indexJobsFairly$4(IndexUpdateRunner.java:375)
+	at com.intellij.openapi.progress.impl.ProgressSuspender.executeNonSuspendableSection(ProgressSuspender.java:90)
+	at com.intellij.util.indexing.contentQueue.IndexUpdateRunner.indexJobsFairly(IndexUpdateRunner.java:378)
+	at com.intellij.util.indexing.contentQueue.IndexUpdateRunner.lambda$doIndexFiles$3(IndexUpdateRunner.java:309)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.doRun(BoundedTaskExecutor.java:244)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.access$200(BoundedTaskExecutor.java:30)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.executeFirstTaskAndHelpQueue(BoundedTaskExecutor.java:222)
+	at com.intellij.util.ConcurrencyUtil.runUnderThreadName(ConcurrencyUtil.java:218)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.run(BoundedTaskExecutor.java:210)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:702)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:699)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:699)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-04-05 19:38:51,337 [21141054] SEVERE - #c.i.u.i.FileBasedIndexImpl - IntelliJ IDEA 2023.3.6  Build #IU-233.15026.9
+2026-04-05 19:38:51,337 [21141054] SEVERE - #c.i.u.i.FileBasedIndexImpl - JDK: 17.0.10; VM: OpenJDK 64-Bit Server VM; Vendor: JetBrains s.r.o.
+2026-04-05 19:38:51,337 [21141054] SEVERE - #c.i.u.i.FileBasedIndexImpl - OS: Mac OS X
+2026-04-05 19:38:51,338 [21141055] SEVERE - #c.i.u.i.FileBasedIndexImpl - Last Action: EmacsEditor.FindFile
+2026-04-05 19:38:51,389 [21141106]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53768,java.lang.AssertionError: No ID found for serializer FILE (org.jetbrains.plugins.groovy.lang.psi.stubs.elements.GrStubFileElementType), external id:groovy.FILE, language:Language: Groovy
+2026-04-05 19:38:51,389 [21141106]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53770,java.lang.AssertionError: No ID found for serializer FILE (org.jetbrains.plugins.groovy.lang.psi.stubs.elements.GrStubFileElementType), external id:groovy.FILE, language:Language: Groovy
+2026-04-05 19:38:51,389 [21141106]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53769,java.lang.AssertionError: No ID found for serializer FILE (org.jetbrains.plugins.groovy.lang.psi.stubs.elements.GrStubFileElementType), external id:groovy.FILE, language:Language: Groovy
+2026-04-05 19:38:51,389 [21141106]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53767,java.lang.AssertionError: No ID found for serializer FILE (org.jetbrains.plugins.groovy.lang.psi.stubs.elements.GrStubFileElementType), external id:groovy.FILE, language:Language: Groovy
+2026-04-05 19:38:51,389 [21141106] SEVERE - #c.i.u.i.FileBasedIndexImpl - Error while indexing /Users/sunx/Library/Mobile Documents/com~apple~CloudDocs/syncer/proj/github.com/sunznx/idea-emacs-editor/.intellijPlatform/sandbox/emacs-editor/IU-2023.3.6/config/extensions/com.intellij.database/data/extractors/One-row.sql.groovy
+To reindex this file IDEA has to be restarted
+java.lang.AssertionError: No ID found for serializer FILE (org.jetbrains.plugins.groovy.lang.psi.stubs.elements.GrStubFileElementType), external id:groovy.FILE, language:Language: Groovy
+	at com.intellij.psi.stubs.StubSerializerEnumerator.getClassId(StubSerializerEnumerator.java:78)
+	at com.intellij.psi.stubs.StubSerializationHelper.writeSerializerId(StubSerializationHelper.java:37)
+	at com.intellij.psi.stubs.StubSerializationHelper.writeSerializerId(StubSerializationHelper.java:12)
+	at com.intellij.psi.stubs.StubTreeSerializerBase.writeSerializerId(StubTreeSerializerBase.java:149)
+	at com.intellij.psi.stubs.StubTreeSerializerBase.serializeSelf(StubTreeSerializerBase.java:140)
+	at com.intellij.psi.stubs.StubTreeSerializerBase.serializeRoot(StubTreeSerializerBase.java:169)
+	at com.intellij.psi.stubs.StubTreeSerializerBase.serialize(StubTreeSerializerBase.java:86)
+	at com.intellij.psi.stubs.SerializationManagerImpl.serialize(SerializationManagerImpl.java:198)
+	at com.intellij.psi.stubs.SerializedStubTree.serializeStub(SerializedStubTree.java:98)
+	at com.intellij.psi.stubs.StubUpdatingIndex$2.computeValue(StubUpdatingIndex.java:212)
+	at com.intellij.psi.stubs.StubUpdatingIndex$2.computeValue(StubUpdatingIndex.java:176)
+	at com.intellij.psi.stubs.StubUpdatingIndex$2.computeValue(StubUpdatingIndex.java:145)
+	at com.intellij.util.indexing.SingleEntryIndexer.map(SingleEntryIndexer.java:30)
+	at com.intellij.util.indexing.SingleEntryIndexer.map(SingleEntryIndexer.java:19)
+	at com.intellij.util.indexing.impl.MapReduceIndex.mapByIndexer(MapReduceIndex.java:318)
+	at com.intellij.util.indexing.impl.MapReduceIndex.mapInput(MapReduceIndex.java:309)
+	at com.intellij.util.indexing.impl.MapReduceIndex.mapInputAndPrepareUpdate(MapReduceIndex.java:254)
+	at com.intellij.psi.stubs.StubUpdatingIndexStorage.mapInputAndPrepareUpdate(StubUpdatingIndexStorage.java:62)
+	at com.intellij.psi.stubs.StubUpdatingIndexStorage.mapInputAndPrepareUpdate(StubUpdatingIndexStorage.java:22)
+	at com.intellij.indexing.composite.CompositeInvertedIndexBase.updateBaseIndex(CompositeInvertedIndexBase.java:283)
+	at com.intellij.indexing.composite.CompositeInvertedIndexBase.mapInputAndPrepareUpdate(CompositeInvertedIndexBase.java:63)
+	at com.intellij.indexing.composite.CompositeInvertedIndexBase.mapInputAndPrepareUpdate(CompositeInvertedIndexBase.java:29)
+	at com.intellij.util.indexing.FileBasedIndexImpl.createSingleIndexValueApplier(FileBasedIndexImpl.java:1571)
+	at com.intellij.util.indexing.FileBasedIndexImpl.lambda$doIndexFileContent$23(FileBasedIndexImpl.java:1444)
+	at com.intellij.openapi.fileTypes.impl.FileTypeManagerImpl.freezeFileTypeTemporarilyWithProvidedValueIn(FileTypeManagerImpl.java:678)
+	at com.intellij.util.indexing.FileBasedIndexImpl.doIndexFileContent(FileBasedIndexImpl.java:1397)
+	at com.intellij.util.indexing.FileBasedIndexImpl.indexFileContent(FileBasedIndexImpl.java:1371)
+	at com.intellij.util.indexing.contentQueue.IndexUpdateRunner.lambda$indexOneFileOfJob$5(IndexUpdateRunner.java:492)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$OTelMonitor.callWrapped(NonBlockingReadActionImpl.java:840)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$OTelMonitor$MonitoredComputation.call(NonBlockingReadActionImpl.java:872)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$Submission.insideReadAction(NonBlockingReadActionImpl.java:604)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$Submission.lambda$attemptComputation$4(NonBlockingReadActionImpl.java:567)
+	at com.intellij.openapi.application.impl.ApplicationImpl.tryRunReadAction(ApplicationImpl.java:1075)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.lambda$runInReadActionWithWriteActionPriority$0(ProgressIndicatorUtils.java:73)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtilService.runActionAndCancelBeforeWrite(ProgressIndicatorUtilService.java:73)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runActionAndCancelBeforeWrite(ProgressIndicatorUtils.java:128)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.lambda$runWithWriteActionPriority$1(ProgressIndicatorUtils.java:111)
+	at com.intellij.openapi.progress.ProgressManager.lambda$runProcess$0(ProgressManager.java:73)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$1(CoreProgressManager.java:192)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$executeProcessUnderProgress$12(CoreProgressManager.java:610)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:685)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computeUnderProgress(CoreProgressManager.java:641)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:609)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:78)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:179)
+	at com.intellij.openapi.progress.ProgressManager.runProcess(ProgressManager.java:73)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runWithWriteActionPriority(ProgressIndicatorUtils.java:108)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runInReadActionWithWriteActionPriority(ProgressIndicatorUtils.java:73)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$Submission.attemptComputation(NonBlockingReadActionImpl.java:567)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$Submission.executeSynchronously(NonBlockingReadActionImpl.java:492)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl.executeSynchronously(NonBlockingReadActionImpl.java:220)
+	at com.intellij.util.indexing.contentQueue.IndexUpdateRunner.indexOneFileOfJob(IndexUpdateRunner.java:496)
+	at com.intellij.util.indexing.contentQueue.IndexUpdateRunner.lambda$indexJobsFairly$4(IndexUpdateRunner.java:375)
+	at com.intellij.openapi.progress.impl.ProgressSuspender.executeNonSuspendableSection(ProgressSuspender.java:90)
+	at com.intellij.util.indexing.contentQueue.IndexUpdateRunner.indexJobsFairly(IndexUpdateRunner.java:378)
+	at com.intellij.util.indexing.contentQueue.IndexUpdateRunner.lambda$doIndexFiles$3(IndexUpdateRunner.java:309)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.doRun(BoundedTaskExecutor.java:244)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.access$200(BoundedTaskExecutor.java:30)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.executeFirstTaskAndHelpQueue(BoundedTaskExecutor.java:222)
+	at com.intellij.util.ConcurrencyUtil.runUnderThreadName(ConcurrencyUtil.java:218)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.run(BoundedTaskExecutor.java:210)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:702)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:699)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:699)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-04-05 19:38:51,389 [21141106]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53764,java.lang.AssertionError: No ID found for serializer FILE (org.jetbrains.plugins.groovy.lang.psi.stubs.elements.GrStubFileElementType), external id:groovy.FILE, language:Language: Groovy
+2026-04-05 19:38:51,390 [21141107] SEVERE - #c.i.u.i.FileBasedIndexImpl - IntelliJ IDEA 2023.3.6  Build #IU-233.15026.9
+2026-04-05 19:38:51,390 [21141107] SEVERE - #c.i.u.i.FileBasedIndexImpl - JDK: 17.0.10; VM: OpenJDK 64-Bit Server VM; Vendor: JetBrains s.r.o.
+2026-04-05 19:38:51,390 [21141107] SEVERE - #c.i.u.i.FileBasedIndexImpl - OS: Mac OS X
+2026-04-05 19:38:51,391 [21141108] SEVERE - #c.i.u.i.FileBasedIndexImpl - Last Action: EmacsEditor.FindFile
+2026-04-05 19:38:51,395 [21141112]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53777,java.lang.AssertionError: No ID found for serializer FILE (org.jetbrains.plugins.groovy.lang.psi.stubs.elements.GrStubFileElementType), external id:groovy.FILE, language:Language: Groovy
+2026-04-05 19:38:51,395 [21141112]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53766,java.lang.AssertionError: No ID found for serializer FILE (org.jetbrains.plugins.groovy.lang.psi.stubs.elements.GrStubFileElementType), external id:groovy.FILE, language:Language: Groovy
+2026-04-05 19:38:51,395 [21141112]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53771,java.lang.AssertionError: No ID found for serializer FILE (org.jetbrains.plugins.groovy.lang.psi.stubs.elements.GrStubFileElementType), external id:groovy.FILE, language:Language: Groovy
+2026-04-05 19:38:51,395 [21141112]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53763,java.lang.AssertionError: No ID found for serializer FILE (org.jetbrains.plugins.groovy.lang.psi.stubs.elements.GrStubFileElementType), external id:groovy.FILE, language:Language: Groovy
+2026-04-05 19:38:51,395 [21141112]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53781,java.lang.AssertionError: No ID found for serializer FILE (org.jetbrains.plugins.groovy.lang.psi.stubs.elements.GrStubFileElementType), external id:groovy.FILE, language:Language: Groovy
+2026-04-05 19:38:51,395 [21141112]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53779,java.lang.AssertionError: No ID found for serializer FILE (org.jetbrains.plugins.groovy.lang.psi.stubs.elements.GrStubFileElementType), external id:groovy.FILE, language:Language: Groovy
+2026-04-05 19:38:51,395 [21141112]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53765,java.lang.AssertionError: No ID found for serializer FILE (org.jetbrains.plugins.groovy.lang.psi.stubs.elements.GrStubFileElementType), external id:groovy.FILE, language:Language: Groovy
+2026-04-05 19:38:51,396 [21141113]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53778,java.lang.AssertionError: No ID found for serializer FILE (org.jetbrains.plugins.groovy.lang.psi.stubs.elements.GrStubFileElementType), external id:groovy.FILE, language:Language: Groovy
+2026-04-05 19:38:51,396 [21141113]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53776,java.lang.AssertionError: No ID found for serializer FILE (org.jetbrains.plugins.groovy.lang.psi.stubs.elements.GrStubFileElementType), external id:groovy.FILE, language:Language: Groovy
+2026-04-05 19:38:51,396 [21141113]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53775,java.lang.AssertionError: No ID found for serializer FILE (org.jetbrains.plugins.groovy.lang.psi.stubs.elements.GrStubFileElementType), external id:groovy.FILE, language:Language: Groovy
+2026-04-05 19:38:51,396 [21141113]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53780,java.lang.AssertionError: No ID found for serializer FILE (org.jetbrains.plugins.groovy.lang.psi.stubs.elements.GrStubFileElementType), external id:groovy.FILE, language:Language: Groovy
+2026-04-05 19:38:51,396 [21141113]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53774,java.lang.AssertionError: No ID found for serializer FILE (org.jetbrains.plugins.groovy.lang.psi.stubs.elements.GrStubFileElementType), external id:groovy.FILE, language:Language: Groovy
+2026-04-05 19:38:51,396 [21141113]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53782,java.lang.AssertionError: No ID found for serializer FILE (org.jetbrains.plugins.groovy.lang.psi.stubs.elements.GrStubFileElementType), external id:groovy.FILE, language:Language: Groovy
+2026-04-05 19:38:51,396 [21141113]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53772,java.lang.AssertionError: No ID found for serializer FILE (org.jetbrains.plugins.groovy.lang.psi.stubs.elements.GrStubFileElementType), external id:groovy.FILE, language:Language: Groovy
+2026-04-05 19:38:51,396 [21141113]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53784,java.lang.AssertionError: No ID found for serializer FILE (org.jetbrains.plugins.groovy.lang.psi.stubs.elements.GrStubFileElementType), external id:groovy.FILE, language:Language: Groovy
+2026-04-05 19:38:51,396 [21141113]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53773,java.lang.AssertionError: No ID found for serializer FILE (org.jetbrains.plugins.groovy.lang.psi.stubs.elements.GrStubFileElementType), external id:groovy.FILE, language:Language: Groovy
+2026-04-05 19:38:51,397 [21141114]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53786,java.lang.AssertionError: No ID found for serializer FILE (org.jetbrains.plugins.groovy.lang.psi.stubs.elements.GrStubFileElementType), external id:groovy.FILE, language:Language: Groovy
+2026-04-05 19:38:51,397 [21141114]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53785,java.lang.AssertionError: No ID found for serializer FILE (org.jetbrains.plugins.groovy.lang.psi.stubs.elements.GrStubFileElementType), external id:groovy.FILE, language:Language: Groovy
+2026-04-05 19:38:51,397 [21141114]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53787,java.lang.AssertionError: No ID found for serializer FILE (org.jetbrains.plugins.groovy.lang.psi.stubs.elements.GrStubFileElementType), external id:groovy.FILE, language:Language: Groovy
+2026-04-05 19:38:51,397 [21141114]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53783,java.lang.AssertionError: No ID found for serializer FILE (org.jetbrains.plugins.groovy.lang.psi.stubs.elements.GrStubFileElementType), external id:groovy.FILE, language:Language: Groovy
+2026-04-05 19:38:51,423 [21141140]   INFO - #c.i.u.i.ProjectChangedFilesScanner - Retrieving changed during indexing files of syncer : 0 to update, calculated in 0ms
+2026-04-05 19:38:51,445 [21141162]   INFO - #c.i.u.i.UnindexedFilesIndexer - Finished for syncer. Unindexed files update took 141ms; general responsiveness: ok; EDT responsiveness: ok
+2026-04-05 19:38:51,446 [21141163]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: (dumb mode task) UnindexedFilesIndexer[syncer, 1 iterators, reason: Merged changes in: "Custom kind roots from entity (extensions, empty)" with On refresh of files in syncer]
+2026-04-05 19:38:51,446 [21141163]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: (dumb mode task) com.intellij.util.indexing.UnindexedFilesScanner$2@6efdeefd
+2026-04-05 19:38:51,447 [21141164]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: (dumb mode task) com.intellij.util.indexing.UnindexedFilesScanner$2@6efdeefd
+2026-04-05 19:38:51,447 [21141164]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: (dumb mode task) com.intellij.util.indexing.UnindexedFilesScanner$2@7f9e475f
+2026-04-05 19:38:51,447 [21141164]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: UnindexedFilesScanner[syncer]
+2026-04-05 19:38:51,447 [21141164]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: (dumb mode task) com.intellij.util.indexing.UnindexedFilesScanner$2@7f9e475f
+2026-04-05 19:38:51,447 [21141164]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task canceled (PCE): UnindexedFilesScanner[syncer]
+2026-04-05 19:38:51,447 [21141164]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: UnindexedFilesScanner[syncer]
+2026-04-05 19:38:51,447 [21141164]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: UnindexedFilesScanner[syncer]
+2026-04-05 19:38:51,448 [21141165]   INFO - #c.i.u.i.UnindexedFilesScanner - Started scanning for indexing of syncer. Reason: Rebuild requested for index fileIncludes
+2026-04-05 19:38:51,448 [21141165]   INFO - #c.i.u.i.UnindexedFilesScanner - Performing delayed pushing properties tasks for syncer took 0ms; general responsiveness: ok; EDT responsiveness: ok
+2026-04-05 19:38:51,461 [21141178]   INFO - #c.i.o.p.DumbServiceImpl - exit dumb mode [syncer]
+2026-04-05 19:38:51,481 [21141198]   INFO - #c.i.u.i.UnindexedFilesScanner - Scanning of syncer uses 9 scanning threads
+2026-04-05 19:38:51,481 [21141198]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of One-row.sql.groovy by request of indexes: [groovy.cucumber.step->NOT_INDEXED,Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,Stubs->NOT_INDEXED,]. 
+2026-04-05 19:38:51,482 [21141199]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of CSV-Groovy.csv.groovy by request of indexes: [groovy.cucumber.step->NOT_INDEXED,Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,Stubs->NOT_INDEXED,]. 
+2026-04-05 19:38:51,482 [21141199]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of XML-Groovy.xml.groovy by request of indexes: [groovy.cucumber.step->NOT_INDEXED,Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,Stubs->NOT_INDEXED,]. 
+2026-04-05 19:38:51,482 [21141199]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of lib.es2020.string.d.ts by request of indexes: [js.string.literal.words.index->NOT_INDEXED,Stubs->NOT_INDEXED,]. 
+2026-04-05 19:38:51,482 [21141199]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of HTML-Groovy.html.groovy by request of indexes: [groovy.cucumber.step->NOT_INDEXED,Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,Stubs->NOT_INDEXED,]. 
+2026-04-05 19:38:51,482 [21141199]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of lib.es2020.sharedmemory.d.ts by request of indexes: [js.string.literal.words.index->NOT_INDEXED,Stubs->NOT_INDEXED,]. 
+2026-04-05 19:38:51,481 [21141198]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of sass_functions.scss by request of indexes: [Stubs->NOT_INDEXED,]. 
+2026-04-05 19:38:51,482 [21141199]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of lib.es2018.full.d.ts by request of indexes: [js.string.literal.words.index->NOT_INDEXED,Stubs->NOT_INDEXED,]. 
+2026-04-05 19:38:51,482 [21141199]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of HTML-JavaScript.html.js by request of indexes: [Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,fileIncludes->NOT_INDEXED,js.string.literal.words.index->NOT_INDEXED,js.test.names->NOT_INDEXED,js.custom.single.entry.index->NOT_INDEXED,org.jetbrains.kotlin.idea.versions.KotlinJsMetadataVersionIndex->NOT_INDEXED,Stubs->NOT_INDEXED,]. 
+2026-04-05 19:38:51,482 [21141199]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of collections.kotlin_builtins by request of indexes: [Stubs->NOT_INDEXED,]. 
+2026-04-05 19:38:51,498 [21141215]   INFO - #c.i.u.i.UnindexedFilesScanner - Scanning completed for syncer. Number of scanned files: 519; number of files for indexing: 142 took 50ms; general responsiveness: ok; EDT responsiveness: ok
+2026-04-05 19:38:51,500 [21141217]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: UnindexedFilesScanner[syncer]
+2026-04-05 19:38:51,502 [21141219]   INFO - #c.i.o.p.DumbServiceImpl - enter dumb mode [syncer]
+2026-04-05 19:38:51,513 [21141230]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: (dumb mode task) com.intellij.util.indexing.DumbModeWhileScanningTrigger$DumbModeWhileScanning@79056587
+2026-04-05 19:38:51,528 [21141245]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: (dumb mode task) com.intellij.util.indexing.DumbModeWhileScanningTrigger$DumbModeWhileScanning@79056587
+2026-04-05 19:38:51,528 [21141245]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: (dumb mode task) UnindexedFilesIndexer[syncer, 5 iterators, reason: Rebuild requested for index fileIncludes]
+2026-04-05 19:38:51,533 [21141250]   INFO - #c.i.u.i.c.IndexUpdateRunner - Using 5 indexing  and 4 writing threads for indexing
+2026-04-05 19:38:51,535 [21141252]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53768,java.lang.AssertionError: No ID found for serializer FILE (org.jetbrains.plugins.groovy.lang.psi.stubs.elements.GrStubFileElementType), external id:groovy.FILE, language:Language: Groovy
+2026-04-05 19:38:51,536 [21141253]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53767,java.lang.AssertionError: No ID found for serializer FILE (org.jetbrains.plugins.groovy.lang.psi.stubs.elements.GrStubFileElementType), external id:groovy.FILE, language:Language: Groovy
+2026-04-05 19:38:51,537 [21141254]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53769,java.lang.AssertionError: No ID found for serializer FILE (org.jetbrains.plugins.groovy.lang.psi.stubs.elements.GrStubFileElementType), external id:groovy.FILE, language:Language: Groovy
+2026-04-05 19:38:51,538 [21141255]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53771,java.lang.AssertionError: No ID found for serializer FILE (org.jetbrains.plugins.groovy.lang.psi.stubs.elements.GrStubFileElementType), external id:groovy.FILE, language:Language: Groovy
+2026-04-05 19:38:51,538 [21141255]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53764,java.lang.AssertionError: No ID found for serializer FILE (org.jetbrains.plugins.groovy.lang.psi.stubs.elements.GrStubFileElementType), external id:groovy.FILE, language:Language: Groovy
+2026-04-05 19:38:51,538 [21141255]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53770,java.lang.AssertionError: No ID found for serializer FILE (org.jetbrains.plugins.groovy.lang.psi.stubs.elements.GrStubFileElementType), external id:groovy.FILE, language:Language: Groovy
+2026-04-05 19:38:51,539 [21141256]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53777,java.lang.AssertionError: No ID found for serializer FILE (org.jetbrains.plugins.groovy.lang.psi.stubs.elements.GrStubFileElementType), external id:groovy.FILE, language:Language: Groovy
+2026-04-05 19:38:51,539 [21141256]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53763,java.lang.AssertionError: No ID found for serializer FILE (org.jetbrains.plugins.groovy.lang.psi.stubs.elements.GrStubFileElementType), external id:groovy.FILE, language:Language: Groovy
+2026-04-05 19:38:51,539 [21141256]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53766,java.lang.AssertionError: No ID found for serializer FILE (org.jetbrains.plugins.groovy.lang.psi.stubs.elements.GrStubFileElementType), external id:groovy.FILE, language:Language: Groovy
+2026-04-05 19:38:51,539 [21141256]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53781,java.lang.AssertionError: No ID found for serializer FILE (org.jetbrains.plugins.groovy.lang.psi.stubs.elements.GrStubFileElementType), external id:groovy.FILE, language:Language: Groovy
+2026-04-05 19:38:51,540 [21141257]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53778,java.lang.AssertionError: No ID found for serializer FILE (org.jetbrains.plugins.groovy.lang.psi.stubs.elements.GrStubFileElementType), external id:groovy.FILE, language:Language: Groovy
+2026-04-05 19:38:51,540 [21141257]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53779,java.lang.AssertionError: No ID found for serializer FILE (org.jetbrains.plugins.groovy.lang.psi.stubs.elements.GrStubFileElementType), external id:groovy.FILE, language:Language: Groovy
+2026-04-05 19:38:51,541 [21141258]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53774,java.lang.AssertionError: No ID found for serializer FILE (org.jetbrains.plugins.groovy.lang.psi.stubs.elements.GrStubFileElementType), external id:groovy.FILE, language:Language: Groovy
+2026-04-05 19:38:51,541 [21141258]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53776,java.lang.AssertionError: No ID found for serializer FILE (org.jetbrains.plugins.groovy.lang.psi.stubs.elements.GrStubFileElementType), external id:groovy.FILE, language:Language: Groovy
+2026-04-05 19:38:51,542 [21141259]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53775,java.lang.AssertionError: No ID found for serializer FILE (org.jetbrains.plugins.groovy.lang.psi.stubs.elements.GrStubFileElementType), external id:groovy.FILE, language:Language: Groovy
+2026-04-05 19:38:51,540 [21141257]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53765,java.lang.AssertionError: No ID found for serializer FILE (org.jetbrains.plugins.groovy.lang.psi.stubs.elements.GrStubFileElementType), external id:groovy.FILE, language:Language: Groovy
+2026-04-05 19:38:51,542 [21141259]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53772,java.lang.AssertionError: No ID found for serializer FILE (org.jetbrains.plugins.groovy.lang.psi.stubs.elements.GrStubFileElementType), external id:groovy.FILE, language:Language: Groovy
+2026-04-05 19:38:51,542 [21141259]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53780,java.lang.AssertionError: No ID found for serializer FILE (org.jetbrains.plugins.groovy.lang.psi.stubs.elements.GrStubFileElementType), external id:groovy.FILE, language:Language: Groovy
+2026-04-05 19:38:51,543 [21141260]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53782,java.lang.AssertionError: No ID found for serializer FILE (org.jetbrains.plugins.groovy.lang.psi.stubs.elements.GrStubFileElementType), external id:groovy.FILE, language:Language: Groovy
+2026-04-05 19:38:51,543 [21141260]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53784,java.lang.AssertionError: No ID found for serializer FILE (org.jetbrains.plugins.groovy.lang.psi.stubs.elements.GrStubFileElementType), external id:groovy.FILE, language:Language: Groovy
+2026-04-05 19:38:51,543 [21141260]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53762,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: ECMAScript 6:FILE, language:Language: ECMAScript 6
+2026-04-05 19:38:51,543 [21141260]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53783,java.lang.AssertionError: No ID found for serializer FILE (org.jetbrains.plugins.groovy.lang.psi.stubs.elements.GrStubFileElementType), external id:groovy.FILE, language:Language: Groovy
+2026-04-05 19:38:51,543 [21141260]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53785,java.lang.AssertionError: No ID found for serializer FILE (org.jetbrains.plugins.groovy.lang.psi.stubs.elements.GrStubFileElementType), external id:groovy.FILE, language:Language: Groovy
+2026-04-05 19:38:51,544 [21141261]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53773,java.lang.AssertionError: No ID found for serializer FILE (org.jetbrains.plugins.groovy.lang.psi.stubs.elements.GrStubFileElementType), external id:groovy.FILE, language:Language: Groovy
+2026-04-05 19:38:51,543 [21141260]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53787,java.lang.AssertionError: No ID found for serializer FILE (org.jetbrains.plugins.groovy.lang.psi.stubs.elements.GrStubFileElementType), external id:groovy.FILE, language:Language: Groovy
+2026-04-05 19:38:51,545 [21141262]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=53786,java.lang.AssertionError: No ID found for serializer FILE (org.jetbrains.plugins.groovy.lang.psi.stubs.elements.GrStubFileElementType), external id:groovy.FILE, language:Language: Groovy
+2026-04-05 19:38:51,551 [21141268]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=255,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,551 [21141268]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=259,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,562 [21141279]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=256,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,564 [21141281]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=253,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,564 [21141281]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=257,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,567 [21141284]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=250,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,570 [21141287]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=249,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,570 [21141287]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=251,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,570 [21141287]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=246,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,572 [21141289]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=242,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,575 [21141292]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=244,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,574 [21141291]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=245,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,573 [21141290]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=248,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,583 [21141300]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=247,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,582 [21141299]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=241,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,592 [21141309]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=237,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,596 [21141313]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=233,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,597 [21141314]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=232,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,598 [21141315]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=236,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,598 [21141315]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=234,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,600 [21141317]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=231,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,602 [21141319]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=228,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,604 [21141321]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=227,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,605 [21141322]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=238,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,604 [21141321]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=235,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,606 [21141323]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=226,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,606 [21141323]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=230,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,609 [21141326]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=223,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,613 [21141330]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=219,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,613 [21141330]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=220,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,618 [21141335]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=229,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,618 [21141335]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=225,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,623 [21141340]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=217,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: Flow JS:FILE, language:Language: Flow JS
+2026-04-05 19:38:51,624 [21141341]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=213,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: Flow JS:FILE, language:Language: Flow JS
+2026-04-05 19:38:51,633 [21141350]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=216,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: Flow JS:FILE, language:Language: Flow JS
+2026-04-05 19:38:51,639 [21141356]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=211,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: Flow JS:FILE, language:Language: Flow JS
+2026-04-05 19:38:51,642 [21141359]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=212,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: Flow JS:FILE, language:Language: Flow JS
+2026-04-05 19:38:51,645 [21141362]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=210,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: Flow JS:FILE, language:Language: Flow JS
+2026-04-05 19:38:51,646 [21141363]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=215,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: Flow JS:FILE, language:Language: Flow JS
+2026-04-05 19:38:51,649 [21141366]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=207,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: Flow JS:FILE, language:Language: Flow JS
+2026-04-05 19:38:51,660 [21141377]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=209,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: Flow JS:FILE, language:Language: Flow JS
+2026-04-05 19:38:51,661 [21141378]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=208,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: Flow JS:FILE, language:Language: Flow JS
+2026-04-05 19:38:51,666 [21141383]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=204,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,672 [21141389]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=202,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,674 [21141391]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=201,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,678 [21141395]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=203,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,685 [21141402]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=199,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,711 [21141428]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=198,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,744 [21141461]   WARN - #c.i.i.p.m.MarketplaceRequests - Can't load ETag from '/Users/sunx/Library/Mobile Documents/com~apple~CloudDocs/syncer/proj/github.com/sunznx/idea-emacs-editor/.intellijPlatform/sandbox/emacs-editor/IU-2023.3.6/system/plugins/jbPluginsXMLIds.json.etag'. Unexpected number of lines: 0
+2026-04-05 19:38:51,755 [21141472]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=218,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,765 [21141482]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=214,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: Flow JS:FILE, language:Language: Flow JS
+2026-04-05 19:38:51,765 [21141482]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=205,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,767 [21141484]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=303,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,767 [21141484]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=302,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,768 [21141485]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=301,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,769 [21141486]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=298,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,769 [21141486]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=299,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,769 [21141486]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=297,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,771 [21141488]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=295,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,771 [21141488]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=296,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,771 [21141488]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=293,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,772 [21141489]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=294,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,772 [21141489]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=292,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,773 [21141490]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=289,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,773 [21141490]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=288,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,774 [21141491]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=304,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,775 [21141492]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=284,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,777 [21141494]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=449,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,778 [21141495]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=280,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,778 [21141495]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=279,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,779 [21141496]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=448,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,780 [21141497]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=447,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,780 [21141497]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=276,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,782 [21141499]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=278,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,782 [21141499]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=274,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,783 [21141500]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=273,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,785 [21141502]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=275,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,790 [21141507]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=272,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,792 [21141509]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=270,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,793 [21141510]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=269,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,794 [21141511]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=446,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,795 [21141512]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=285,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,795 [21141512]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=271,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,796 [21141513]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=266,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,797 [21141514]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=264,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,797 [21141514]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=263,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,798 [21141515]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=444,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,798 [21141515]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=262,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,799 [21141516]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=260,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,803 [21141520]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=392,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.psi.tree.IStubFileElementType), external id:psi.file, language:Language: ANY
+2026-04-05 19:38:51,805 [21141522]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=265,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,807 [21141524]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=394,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.psi.tree.IStubFileElementType), external id:psi.file, language:Language: ANY
+2026-04-05 19:38:51,807 [21141524]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=393,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.psi.tree.IStubFileElementType), external id:psi.file, language:Language: ANY
+2026-04-05 19:38:51,809 [21141526]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=388,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.psi.tree.IStubFileElementType), external id:psi.file, language:Language: ANY
+2026-04-05 19:38:51,809 [21141526]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=395,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.psi.tree.IStubFileElementType), external id:psi.file, language:Language: ANY
+2026-04-05 19:38:51,809 [21141526]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=396,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.psi.tree.IStubFileElementType), external id:psi.file, language:Language: ANY
+2026-04-05 19:38:51,809 [21141526]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=398,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.psi.tree.IStubFileElementType), external id:psi.file, language:Language: ANY
+2026-04-05 19:38:51,811 [21141528]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=399,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.psi.tree.IStubFileElementType), external id:psi.file, language:Language: ANY
+2026-04-05 19:38:51,813 [21141530]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=434,java.lang.AssertionError: No ID found for serializer kotlin.FILE (org.jetbrains.kotlin.psi.stubs.elements.KtFileElementType), external id:kotlin.FILE, language:Language: kotlin
+2026-04-05 19:38:51,814 [21141531]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=224,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,815 [21141532]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=424,java.lang.AssertionError: No ID found for serializer kotlin.FILE (org.jetbrains.kotlin.psi.stubs.elements.KtFileElementType), external id:kotlin.FILE, language:Language: kotlin
+2026-04-05 19:38:51,815 [21141532]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=221,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,815 [21141532]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=300,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,816 [21141533]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=290,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,816 [21141533]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=291,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,816 [21141533]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=286,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,817 [21141534]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=283,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,817 [21141534]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=268,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,818 [21141535]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=267,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,818 [21141535]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=258,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,822 [21141539]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=281,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,823 [21141540]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=243,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,823 [21141540]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=239,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,831 [21141548]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=252,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:51,836 [21141553]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=422,java.lang.AssertionError: No ID found for serializer kotlin.FILE (org.jetbrains.kotlin.psi.stubs.elements.KtFileElementType), external id:kotlin.FILE, language:Language: kotlin
+2026-04-05 19:38:51,902 [21141619]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=200,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:52,133 [21141850]   WARN - #c.i.p.s.StubUpdatingIndexStorage - mapInputAndPrepareUpdate interrupted,inputId=197,java.lang.AssertionError: No ID found for serializer FILE (com.intellij.lang.javascript.types.JSFileElementType), external id:Language: TypeScript:FILE, language:Language: TypeScript
+2026-04-05 19:38:52,157 [21141874]   INFO - #c.i.u.i.ProjectChangedFilesScanner - Retrieving changed during indexing files of syncer : 0 to update, calculated in 0ms
+2026-04-05 19:38:52,179 [21141896]   INFO - #c.i.u.i.UnindexedFilesIndexer - Finished for syncer. Unindexed files update took 646ms; general responsiveness: ok; EDT responsiveness: ok
+2026-04-05 19:38:52,180 [21141897]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: (dumb mode task) UnindexedFilesIndexer[syncer, 5 iterators, reason: Rebuild requested for index fileIncludes]
+2026-04-05 19:38:52,181 [21141898]   INFO - #c.i.o.p.DumbServiceImpl - exit dumb mode [syncer]
+2026-04-05 19:38:54,768 [21144485]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Saving global entities to files
+2026-04-05 19:38:54,865 [21144582]   INFO - #c.i.i.ConversionServiceImpl - java.util.concurrent.ExecutionException: com.intellij.conversion.CannotConvertException: /Users/sunx/Library/Mobile Documents/com~apple~CloudDocs/syncer/proj/github.com/sunznx/syncer/.idea/modules.xml: Unexpected End-of-input in prolog
+ at [row,col {unknown-source}]: [1,1]
+com.intellij.conversion.CannotConvertException: java.util.concurrent.ExecutionException: com.intellij.conversion.CannotConvertException: /Users/sunx/Library/Mobile Documents/com~apple~CloudDocs/syncer/proj/github.com/sunznx/syncer/.idea/modules.xml: Unexpected End-of-input in prolog
+ at [row,col {unknown-source}]: [1,1]
+	at com.intellij.conversion.impl.ConversionContextImpl.getAllProjectFiles(ConversionContextImpl.java:165)
+	at com.intellij.conversion.impl.ConversionContextImpl.saveConversionResult(ConversionContextImpl.java:101)
+	at com.intellij.impl.ConversionServiceImpl.saveConversionResult(ConversionServiceImpl.kt:112)
+	at com.intellij.configurationStore.SaveAndSyncHandlerImpl$saveSettingsUnderModalProgress$1$3$1$1.invoke(SaveAndSyncHandlerImpl.kt:298)
+	at com.intellij.configurationStore.SaveAndSyncHandlerImpl$saveSettingsUnderModalProgress$1$3$1$1.invoke(SaveAndSyncHandlerImpl.kt:297)
+	at com.intellij.openapi.progress.CoroutinesKt.blockingContextInner(coroutines.kt:321)
+	at com.intellij.openapi.progress.CoroutinesKt.access$blockingContextInner(coroutines.kt:1)
+	at com.intellij.openapi.progress.CoroutinesKt$blockingContext$2.invokeSuspend(coroutines.kt:198)
+	at com.intellij.openapi.progress.CoroutinesKt$blockingContext$2.invoke(coroutines.kt)
+	at com.intellij.openapi.progress.CoroutinesKt$blockingContext$2.invoke(coroutines.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startUndispatchedOrReturn(Undispatched.kt:78)
+	at kotlinx.coroutines.CoroutineScopeKt.coroutineScope(CoroutineScope.kt:264)
+	at com.intellij.openapi.progress.CoroutinesKt.blockingContext(coroutines.kt:197)
+	at com.intellij.configurationStore.SaveAndSyncHandlerImpl$saveSettingsUnderModalProgress$1$3$1.invokeSuspend(SaveAndSyncHandlerImpl.kt:297)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:115)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:103)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:584)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:793)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:697)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:684)
+Caused by: java.util.concurrent.ExecutionException: com.intellij.conversion.CannotConvertException: /Users/sunx/Library/Mobile Documents/com~apple~CloudDocs/syncer/proj/github.com/sunznx/syncer/.idea/modules.xml: Unexpected End-of-input in prolog
+ at [row,col {unknown-source}]: [1,1]
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2073)
+	at com.intellij.conversion.impl.ConversionContextImpl.getAllProjectFiles(ConversionContextImpl.java:159)
+	... 21 more
+Caused by: com.intellij.conversion.CannotConvertException: /Users/sunx/Library/Mobile Documents/com~apple~CloudDocs/syncer/proj/github.com/sunznx/syncer/.idea/modules.xml: Unexpected End-of-input in prolog
+ at [row,col {unknown-source}]: [1,1]
+	at com.intellij.conversion.impl.ConversionContextImpl.getModulePaths(ConversionContextImpl.java:238)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at com.intellij.util.concurrency.ContextRunnable.run(ContextRunnable.java:27)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.doRun(BoundedTaskExecutor.java:244)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.access$200(BoundedTaskExecutor.java:30)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.executeFirstTaskAndHelpQueue(BoundedTaskExecutor.java:222)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.run(BoundedTaskExecutor.java:213)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:702)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:699)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:699)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: org.jdom.JDOMException: Unexpected End-of-input in prolog
+ at [row,col {unknown-source}]: [1,1]
+	at com.intellij.openapi.util.JDOMUtil.loadUsingStaX(JDOMUtil.java:238)
+	at com.intellij.openapi.util.JDOMUtil.load(JDOMUtil.java:260)
+	at com.intellij.conversion.impl.ConversionContextImpl.getModulePaths(ConversionContextImpl.java:232)
+	... 13 more
+Caused by: com.fasterxml.aalto.WFCException: Unexpected End-of-input in prolog
+ at [row,col {unknown-source}]: [1,1]
+	at com.fasterxml.aalto.stax.StreamReaderImpl.throwWfe(StreamReaderImpl.java:1777)
+	at com.fasterxml.aalto.stax.StreamReaderImpl.throwUnexpectedEOI(StreamReaderImpl.java:1796)
+	at com.fasterxml.aalto.stax.StreamReaderImpl.handlePrologEoi(StreamReaderImpl.java:1756)
+	at com.fasterxml.aalto.stax.StreamReaderImpl.next(StreamReaderImpl.java:810)
+	at com.intellij.openapi.util.SafeStAXStreamBuilder.build(SafeStAXStreamBuilder.java:99)
+	at com.intellij.openapi.util.JDOMUtil.loadUsingStaX(JDOMUtil.java:231)
+	... 15 more
+2026-04-05 19:38:54,881 [21144598]   INFO - #c.i.a.d.c.d.t.TimeSpanUserActivityDatabaseThrottler - Ending activity project.opened with id cecf9a65
+2026-04-05 19:38:54,890 [21144607]   INFO - #c.j.r.p.c.B.j.B.j - Start Wire Storage check: Check Wire Buffer Size
+2026-04-05 19:38:54,890 [21144607]   INFO - #c.j.r.p.c.B.j.B.j - Start Wire Storage check: Check Wire Expiration
+2026-04-05 19:39:04,914 [21154631]   WARN - #c.i.i.shutdown - Project Project(name=syncer, containerState=COMPONENT_CREATED, componentStore=/Users/sunx/Library/Mobile Documents/com~apple~CloudDocs/syncer/proj/github.com/sunznx/syncer): scope was not completed in 10s.
+
+- "ProjectImpl@2021191021 container":supervisor:ChildScope{Cancelling}
+	- "com.intellij.openapi.updateSettings.impl.pluginsAdvertisement.AdvertiserInfoUpdateService":supervisor:ChildScope{Cancelling}
+		- "com.intellij.openapi.updateSettings.impl.pluginsAdvertisement.AdvertiserInfoUpdateService#514457":StandaloneCoroutine{Cancelling}, state: SUSPENDED [CoroutineId(514457), Dispatchers.Default]
+			at com.intellij.openapi.updateSettings.impl.pluginsAdvertisement.AdvertiserInfoUpdateService$scheduleAdvertiserUpdate$1.invokeSuspend(PluginAdvertiserEditorNotificationProvider.kt:303)
+
+2026-04-05 19:39:15,971 [21165688]   INFO - #c.j.r.f.FollowMeManager - Unregister user (name: 'sunx', clientId: Host)
+2026-04-05 19:39:15,973 [21165690]   INFO - #c.i.o.v.i.l.NativeFileWatcherImpl - Watcher terminated with exit code 0
+2026-04-05 19:39:15,983 [21165700]   INFO - #c.i.o.w.i.WindowManagerImpl - === Release(true) frame on closed project ===
+2026-04-05 19:39:16,013 [21165730]   INFO - #c.j.r.p.c.B.j.B.j - Terminate Wire Storage lifetime
+2026-04-05 19:39:16,055 [21165772]   INFO - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - KCRI storage is closed (didn't exist)
+2026-04-05 19:39:16,056 [21165773]   INFO - #c.i.c.b.CompilerReferenceServiceBase - backward reference index reader is closed (didn't exist)
+2026-04-05 19:39:16,083 [21165800]   INFO - #c.i.a.d.c.d.SqliteLazyInitializedDatabase - Starting saving database (reason: scope cancellation)
+2026-04-05 19:39:16,085 [21165802]   INFO - #c.i.u.s.SvgCacheManager - SVG icon cache is closed
+2026-04-05 19:39:16,095 [21165812]   INFO - #c.i.a.d.c.d.SqliteLazyInitializedDatabase - close start
+2026-04-05 19:39:16,097 [21165814]   INFO - #c.i.a.d.c.d.t.TimeSpanUserActivityDatabaseThrottler - Submitting stale event ide.running_ideRun
+2026-04-05 19:39:16,098 [21165815]   INFO - #c.i.a.d.c.d.SqliteLazyInitializedDatabase - close end
+2026-04-05 19:39:16,099 [21165816]   INFO - #c.i.a.d.c.d.SqliteLazyInitializedDatabase - Saving completed (reason: scope cancellation)
+2026-04-05 19:39:16,124 [21165841]   INFO - #o.j.i.BuiltInServer - web server stopped
+2026-04-05 19:39:16,135 [21165852]   INFO - #c.i.u.i.FileBasedIndexImpl - Index dispose started
+2026-04-05 19:39:16,211 [21165928]   INFO - #c.i.p.s.StubIndexImpl - StubIndexExtension-s were unloaded
+2026-04-05 19:39:16,212 [21165929]   INFO - #c.i.p.s.SerializationManagerImpl - Start shutting down /Users/sunx/Library/Mobile Documents/com~apple~CloudDocs/syncer/proj/github.com/sunznx/idea-emacs-editor/.intellijPlatform/sandbox/emacs-editor/IU-2023.3.6/system/index/rep.names
+2026-04-05 19:39:16,212 [21165929]   INFO - #c.i.p.s.SerializationManagerImpl - Finished shutting down /Users/sunx/Library/Mobile Documents/com~apple~CloudDocs/syncer/proj/github.com/sunznx/idea-emacs-editor/.intellijPlatform/sandbox/emacs-editor/IU-2023.3.6/system/index/rep.names
+2026-04-05 19:39:16,214 [21165931]   INFO - #c.i.u.i.FileBasedIndexImpl - Index dispose completed in 78ms.
+2026-04-05 19:39:16,244 [21165961]   INFO - #c.i.o.v.n.p.PersistentFSImpl - VFS dispose started
+2026-04-05 19:39:16,252 [21165969]   INFO - #c.i.o.v.n.p.PersistentFSImpl - VFS dispose completed in 8ms.
+2026-04-05 19:39:16,253 [21165970]   INFO - #c.i.o.f.i.FileTypeDetectionService - 124 auto-detected files. Detection took 74 ms
+2026-04-05 19:39:16,254 [21165971]   INFO - #c.j.r.p.c.B.j.B.j - Terminate Wire Storage lifetime
+2026-04-05 19:39:16,261 [21165978]   INFO - #c.i.p.i.b.AppStarter - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------
