@@ -5,11 +5,12 @@ import com.intellij.openapi.actionSystem.AnActionEvent;
 import com.intellij.openapi.actionSystem.CommonDataKeys;
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.vfs.VirtualFile;
+import com.intellij.openapi.ui.Messages;
 import org.jetbrains.annotations.NotNull;
 
 /**
  * Emacs-style find file action (C-x C-f).
- * Opens a file selection dialog with Vertico-style completion.
+ * TODO: Implement proper file selection dialog.
  */
 public class FindFileAction extends AnAction {
 
@@ -21,13 +22,11 @@ public class FindFileAction extends AnAction {
         }
 
         VirtualFile currentFile = e.getData(CommonDataKeys.VIRTUAL_FILE);
+        String message = currentFile != null 
+            ? "Current file: " + currentFile.getPath()
+            : "No file open. Project base: " + project.getBasePath();
         
-        // TODO: Implement Vertico-style file selection dialog
-        // For now, just show a message
-        com.intellij.openapi.ui.Messages.showInfoMessage(
-            "Find File: " + (currentFile != null ? currentFile.getPath() : "no file"),
-            "Emacs Find File"
-        );
+        Messages.showInfoMessage(message, "Emacs Find File (C-x C-f)\n\nTODO: Implement file selection dialog with:\n- Path input field\n- File name completion\n- Vertico-style candidate list");
     }
 
     @Override
