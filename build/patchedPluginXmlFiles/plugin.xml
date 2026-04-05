@@ -15,9 +15,8 @@
     <applicationService serviceImplementation="com.github.sunznx.idea.emacs.editor.find.DirCache" />
   </extensions>
   <actions>
-    <action id="Emacs.FindFile" class="com.github.sunznx.idea.emacs.editor.find.FindFileAction" text="Find File (Emacs)" description="Emacs-style find file with Vertico completion" keymap="$default">
-      <keyboard-shortcut keymap="$default" first-keystroke="ctrl X" />
-      <keyboard-shortcut keymap="$default" first-keystroke="ctrl F" />
+    <action id="Emacs.FindFile" class="com.github.sunznx.idea.emacs.editor.find.FindFileAction" text="Find File (Emacs)" description="Emacs-style find file">
+      <keyboard-shortcut keymap="$default" first-keystroke="ctrl shift F" />
     </action>
   </actions>
   <idea-version since-build="233" until-build="241.*" />

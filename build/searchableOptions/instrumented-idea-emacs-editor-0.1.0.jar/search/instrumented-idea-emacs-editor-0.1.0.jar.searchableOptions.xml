@@ -1,11 +1,8 @@
 <options>
   <configurable id="preferences.keymap" configurable_name="Keymap">
-    <option name="completion" path="ActionManager" hit="Emacs-style find file with Vertico completion" />
-    <option name="emacs-style" path="ActionManager" hit="Emacs-style find file with Vertico completion" />
-    <option name="file" path="ActionManager" hit="Emacs-style find file with Vertico completion" />
-    <option name="find" path="ActionManager" hit="Emacs-style find file with Vertico completion" />
-    <option name="vertico" path="ActionManager" hit="Emacs-style find file with Vertico completion" />
-    <option name="with" path="ActionManager" hit="Emacs-style find file with Vertico completion" />
+    <option name="emacs-style" path="ActionManager" hit="Emacs-style find file" />
+    <option name="file" path="ActionManager" hit="Emacs-style find file" />
+    <option name="find" path="ActionManager" hit="Emacs-style find file" />
     <option name="emacs" path="ActionManager" hit="Find File (Emacs)" />
     <option name="file" path="ActionManager" hit="Find File (Emacs)" />
     <option name="find" path="ActionManager" hit="Find File (Emacs)" />
