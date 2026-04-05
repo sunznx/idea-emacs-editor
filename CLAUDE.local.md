@@ -67,3 +67,74 @@ org.gradle.java.home=/opt/homebrew/Cellar/openjdk@17/17.0.18/libexec/openjdk.jdk
 **快捷键不生效**:
 - 在 sandbox 中检查 `Settings → Keymap` → 搜索 "Emacs"
 - 确认 `C-x C-f` 组合键已正确注册
+
+## 测试用例
+
+### FindFileAction (C-x C-f) 功能测试
+
+#### 当前状态
+- ✅ 动作注册成功
+- ✅ 快捷键 `C-x C-f` 触发
+- ✅ 显示当前文件或项目基础路径信息
+- ⏳ TODO: 实现真正的文件选择对话框
+
+#### 待实现的测试用例
+
+1. **基本打开文件**
+   - 输入文件路径
+   - 验证文件存在
+   - 在编辑器中打开
+
+2. **路径补全**
+   - 输入部分路径，按 Tab 补全
+   - 支持通配符 (`*.java`)
+   - 显示匹配的文件列表
+
+3. **模糊匹配**
+   - 输入 `ffc` 匹配 `FindFileCommand.java`
+   - 输入 `us` 匹配 `UserService.java`
+
+4. **快捷键行为**
+   - `C-x C-f` 打开文件
+   - `C-g` 取消操作（待实现）
+
+5. **目录导航**
+   - 从当前文件目录开始
+   - 支持双点 `..` 返回上级目录
+
+#### 测试文件
+位置: `src/test/java/com/github/sunznx/idea/emacs/editor/find/`
+
+```java
+@Test
+@DisplayName("C-x C-f shows dialog with current directory")
+void testFindFileOpensDialog() { }
+
+@Test
+@DisplayName("Tab completion expands file path")
+void testTabCompletionExpandsPath() { }
+
+@Test
+@DisplayName("Fuzzy match works for file names")
+void testFuzzyMatchFindsFiles() { }
+
+@Test
+@DisplayName("C-g cancels file selection")
+void testCtrlGCancelSelection() { }
+```
+
+### Vertico UI 组件（待实现）
+
+#### 文件列表显示
+- 候选文件按名称排序
+- 高亮当前匹配部分
+- 支持上下键导航
+
+#### 输入框行为
+- 实时过滤候选列表
+- 显示文件路径预览
+- 支持 Enter 确认
+
+#### 参考
+- [Vertico 文档](https://elpa.gnu.org/packages/doc/vertico.html)
+- [现代 Emacs 补全指南](https://jneidel.com/guide/emacs-completion/)
